@@ -31,7 +31,7 @@ struct LocationCellView: View {
                         if !(self.location.address?.isEmpty ?? false) {
                             Text(self.location.address!)
                                 .lineLimit(self.two)
-                                .foregroundColor(Color.secondaryText)
+                                .foregroundColor(Color.primaryText)
                         }
                     }
                     .frame(width: geometry.size.width,
@@ -39,7 +39,7 @@ struct LocationCellView: View {
                     Rectangle()
                         .frame(width: geometry.size.width * self.lineWidth,
                                height: self.line)
-                        .foregroundColor(Color.secondaryText)
+                        .foregroundColor(Color.primaryText)
                 }
             }
         }

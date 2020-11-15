@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/laddydiazlamus/Documents/DEVELOPER/TechnicalTestOlimpia/TechnicalTestOlimpia/config/Localized.strings">
+   </FileRef>
+   <FileRef
       location = "group:TechnicalTestOlimpia.xcodeproj">
    </FileRef>
    <FileRef

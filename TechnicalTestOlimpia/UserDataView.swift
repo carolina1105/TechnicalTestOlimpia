@@ -18,12 +18,12 @@ struct UserDataView: View {
     var body: some View {
         NavigationView {
             VStack{
-                data(title: "Nombres", username: username)
-                data(title: "Cedula", username: username)
-                data(title: "Direccion", username: username)
-                data(title: "ciudad", username: username)
-                data(title: "pais", username: username)
-                data(title: "cellPhone", username: username)
+                data(title: "TEXT_NAME".localized, username: username)
+                data(title: "TEXT_IDENTIFICATION_CARD".localized, username: username)
+                data(title: "TEXT_ALERT_ADDRESS".localized, username: username)
+                data(title: "TEXT_ALERT_CITY".localized, username: username)
+                data(title: "TEXT_ALERT_COUNTRY".localized, username: username)
+                data(title: "TEXT_ALERT_CELL_PHONE".localized, username: username)
                 BtnHudPrimary(text: "TEXT_CREATE_ACCOUNT".localized) {  btn in
                     self.showLocation()
                     btn.stopAnimation(animationStyle: .normal)
@@ -101,7 +101,7 @@ struct data: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title)
+            Text(title + ":")
                 .titleFont()
             TextField(title, text: $username)
                 .textFieldStyle(CustomTextFieldStyle(status: .default))

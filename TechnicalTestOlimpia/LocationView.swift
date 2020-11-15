@@ -187,7 +187,7 @@ struct LocationView: View {
                                      dismissButton: .default(Text("TEXT_CLOSE".localized)))
                     }
                     .navigationBarTitle(Text("TEXT_LOCATION_TITLE".localized), displayMode: .inline)
-                    .navigationBarColor(UIColor.red)
+                    .navigationBarColor(UIColor.primary)
                     .navigationBarItems(leading:
                         Button(action: {
                             SegueConfig.shared.dismiss()
@@ -238,7 +238,7 @@ struct SearchAddress: View {
                               onEditingChanged: { isEditing in
                                 
                     }, onCommit: onCommit)
-                        .foregroundColor(Color.secondaryText)
+                        .foregroundColor(Color.primaryText)
                 }
             }
             .frame(width: (width * searchWidth) - locationVM.cancelWidth,

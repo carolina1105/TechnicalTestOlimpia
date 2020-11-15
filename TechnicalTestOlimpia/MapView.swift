@@ -79,7 +79,7 @@ class MapDelegate: NSObject, MKMapViewDelegate {
     
         let pin = MKPinAnnotationView(annotation: annotation,
                                       reuseIdentifier: annotationId)
-        pin.tintColor = UIColor.red
+        pin.tintColor = UIColor.tint
         pin.animatesDrop = annotation is MKPointAnnotation
         pin.rightCalloutAccessoryView = sendLocation()
         pin.canShowCallout = true
@@ -97,7 +97,7 @@ class MapDelegate: NSObject, MKMapViewDelegate {
                                             width: sendSize,
                                             height: sendSize))
         button.setImage(icon, for: .normal)
-        button.tintColor = UIColor.red
+        button.tintColor = UIColor.tint
         return button
     }
     

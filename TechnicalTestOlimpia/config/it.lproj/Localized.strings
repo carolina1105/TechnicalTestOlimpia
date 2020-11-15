@@ -1,0 +1,33 @@
+/* 
+  Localized.strings
+  TechnicalTestOlimpia
+
+  Created by Laddy Diaz Lamus on 15/11/20.
+  
+*/
+
+/* Global Text View */
+    "TEXT_CLOSE" = "Vicino";
+    "TEXT_CANCEL" = "Annulla";
+    "TEXT_ACCEPT" = "Accettare";
+    "TEXT_CONTINUE" = "Continuare";
+    "TEXT_NEXT" = "Il prossimo";
+    "TEXT_ALERT_SUCCESS" = "Buone notizie";
+    "TEXT_ALERT_FAILURE" = "Avvertimento";
+    "TEXT_REQUEST_SUCCESS" = "La tua richiesta è stata inviata con successo";
+/* Global Text View */
+
+/* User Register View */
+    "TEXT_NAME" = "Nome";
+    "TEXT_IDENTIFICATION_CARD" = "Carta d'identità";
+    "TEXT_ADDRESS" = "Indirizzo";
+    "TEXT_CITY" = "Città";
+    "TEXT_COUNTRY" = "Nazione";
+    "TEXT_CELLPHONE" = "Cellulare";
+/* User Register View */
+
+/* Location */
+    "TEXT_LOCATION_TITLE" = "Seleziona posizione";
+    "TEXT_SEARCH_NAME_OR_ADDRESS" = "Cerca per nome o indirizzo";
+    "TEXT_PERMISSION_LOCATION_DESC" = "Puoi abilitare questa autorizzazione nell'app Impostazioni iOS.";
+/* Location */
