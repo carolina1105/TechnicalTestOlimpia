@@ -9,28 +9,28 @@ import Firebase
 
 struct UserModel: Codable {
     
-    static let empty = ""
+//    static let empty = ""
     
-    var id: Int64?
-    var name: String?
-    var identification: Int?
-    var address: String?
-    var avatar: String?
-    var city: String?
-    var country: String?
-    var cellphone: String?
-    var geolocation: String?
+    var id: Int64
+    var name: String
+    var identification: Int
+    var address: String
+    var avatar: String
+    var city: String
+    var country: String
+    var cellphone: String
+    var geolocation: String
     
     
-    init(id: Int64? = 0,
-         name: String? = "",
-         identification: Int? = 0,
-         address: String? = "",
-         avatar: String? = "",
-         city: String? = "",
-         country: String? = "",
-         cellphone: String? = "",
-         geolocation: String? = "") {
+    init(id: Int64 = 0,
+         name: String = "",
+         identification: Int = 0,
+         address: String = "",
+         avatar: String = "",
+         city: String = "",
+         country: String = "",
+         cellphone: String = "",
+         geolocation: String = "") {
         self.id = id
         self.name = name
         self.identification = identification
@@ -77,16 +77,28 @@ struct UserModel: Codable {
 //    }
     
     func toDTO(model: UserModel) -> RegisterUserReqDTO {
-        let request = RegisterUserReqDTO(id: model.id ?? 0, 
-                                         name: model.name ?? "", 
-                                         identification: model.identification ?? 0, 
-                                         address: model.address ?? "", 
-                                         avatar: model.avatar ?? "", 
-                                         city: model.city ?? "", 
-                                         country: model.country ?? "", 
-                                         cellphone: model.cellphone ?? "", 
-                                         geolocation: model.geolocation ?? "")
+        let request = RegisterUserReqDTO(id: model.id , 
+                                         name: model.name , 
+                                         identification: model.identification , 
+                                         address: model.address , 
+                                         avatar: model.avatar , 
+                                         city: model.city , 
+                                         country: model.country , 
+                                         cellphone: model.cellphone , 
+                                         geolocation: model.geolocation )
         return request
     }
     
+}
+
+extension UserModel {
+    static var empty = UserModel(id: .zero, 
+                             name: "", 
+                             identification: .zero, 
+                             address: "", 
+                             avatar: "", 
+                             city: "", 
+                             country: "", 
+                             cellphone: "", 
+                             geolocation: "")
 }

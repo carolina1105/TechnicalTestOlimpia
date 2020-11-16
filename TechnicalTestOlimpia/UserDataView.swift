@@ -14,18 +14,23 @@ struct UserDataView: View {
     private var segue = SegueConfig.shared
 
     @State var username: String = ""
+    @ObservedObject var userVM = UserDataViewModel.shared
 
     var body: some View {
         NavigationView {
             VStack{
-                data(title: "TEXT_NAME".localized, username: username)
-                data(title: "TEXT_IDENTIFICATION_CARD".localized, username: username)
-                data(title: "TEXT_ADDRESS".localized, username: username)
-                data(title: "TEXT_CITY".localized, username: username)
-                data(title: "TEXT_COUNTRY".localized, username: username)
-                data(title: "TEXT_CELLPHONE".localized, username: username)
-                BtnHudPrimary(text: "TEXT_CREATE_ACCOUNT".localized) {  btn in
-                    self.showLocation()
+                ScrollView { 
+                    SectionView(title: "TEXT_NAME".localized, username: self.$userVM.name)
+                    SectionView(title: "TEXT_IDENTIFICATION_CARD".localized, username: .constant("\(self.userVM.identification)"))
+                    SectionView(title: "TEXT_ADDRESS".localized, username: self.$userVM.address)
+                    SectionView(title: "TEXT_CITY".localized, username: self.$userVM.city)
+                    SectionView(title: "TEXT_COUNTRY".localized, username: self.$userVM.country)
+                    SectionView(title: "TEXT_CELLPHONE".localized, username: self.$userVM.cellphone)
+
+                }
+                BtnHudPrimary(text: "TEXT_NEXT".localized) {  btn in
+//                    self.showLocation()
+                    print("user. \(self.userVM.user)")
                     btn.stopAnimation(animationStyle: .normal)
 
 //                                self.registerUserVM.register(success: {
@@ -37,12 +42,12 @@ struct UserDataView: View {
 //                                }
                 }
                 .frame(width: width * btnWidth, height: btnHeight,alignment: .center)
-
+                .padding(.bottom, 30)
                 Spacer()
             }
             .padding(.top)
-            .navigationBarTitle("UserData")
-            .navigationBarColor(UIColor.nThird)
+            .navigationBarTitle("UserData", displayMode: .inline)
+            .navigationBarColor(UIColor.tint)
             .edgesIgnoringSafeArea(.bottom)
         }
         
@@ -95,9 +100,9 @@ struct UserDataView: View {
     }
 }
 
-struct data: View {
+struct SectionView: View {
     var title: String
-    @State var username: String = ""
+    @Binding var username: String
     
     var body: some View {
         VStack(alignment: .leading) {

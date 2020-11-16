@@ -1,0 +1,44 @@
+[
+	{
+        "id" : "1",
+        "iso" : "de",
+		"key" : "de",
+		"language" : "GERMAN_TITLE",
+        "icon" : "Deutsch"
+	},
+	{
+        "id" : "2",
+        "iso" : "en",
+		"key" : "en",
+		"language" : "ENGLISH_TITLE",
+        "icon" : "English"
+	},
+	{
+        "id" : "3",
+        "iso" : "es",
+		"key" : "es",
+		"language" : "SPANISH_TITLE",
+        "icon" : "Espanol"
+	},
+	{
+        "id" : "4",
+        "iso" : "fr",
+		"key" : "fr",
+		"language" : "FRENCH_TITLE",
+        "icon" : "Francais"
+	},
+	{
+        "id" : "5",
+        "iso" : "it",
+		"key" : "it",
+        "language" : "ITALIAN_TITLE",
+        "icon" : "Italiano"
+	},
+	{
+        "id" : "6",
+        "iso" : "pt",
+		"key" : "pt-PT",
+		"language" : "PORTUGUESE_TITLE",
+        "icon" : "Portugues"
+	}
+]
