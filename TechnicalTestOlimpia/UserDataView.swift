@@ -73,9 +73,9 @@ struct UserDataView: View {
                     Text("  ")
                     Image(systemName: "line.horizontal.3")
                         .font(.system(size: self.iconSize))
-                        .foregroundColor(Color.nSecondary)
+                        .foregroundColor(Color.nSecondaryText)
                     Text("Pokémon")
-                        .titleFont(color: Color.nSecondary)
+                        .titleFont(color: Color.nSecondaryText)
                 }.offset(x: self.offsetXBar)
             })
             .gesture(drag)
@@ -187,16 +187,8 @@ struct NavigationContent: View {
     
     @ObservedObject var userVM = UserDataViewModel.shared
 
-//    @StateObject var userVM: UserDataViewModel
-    
     var body: some View {
         ZStack {
-//            NavigationLink(destination: SecuritySettingsView(securitySettings: $inboxVM.activeSection,
-//                                                             showCaseType: $showCaseType),
-//                           tag: securityTag,
-//                           selection: $inboxVM.activeSection) {
-//                Text("")
-//            }
             NavigationLink(destination: AppearanceSettingsView(),
                            tag: appearanceTag,
                            selection: $userVM.activeSection) {

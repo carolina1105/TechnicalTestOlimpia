@@ -48,7 +48,7 @@ struct LanguageView: View {
                         Text(txtSelectLang)
                             .font(name: FontConfig.default.robotoBold,
                                   size: FontSizeConfig.default.title)
-                            .foregroundColor(Color.secondaryText)
+                            .foregroundColor(Color.primaryText)
                         Spacer()
                     }.overlay(
                         Button(action: {
@@ -56,7 +56,7 @@ struct LanguageView: View {
                         }, label: {
                             Image(systemName: "xmark")
                                 .font(.system(size: iconSize))
-                                .foregroundColor(Color.secondaryText)
+                                .foregroundColor(Color.primaryText)
                                 .frame(width: frmIconSize, height: frmIconSize)
                                 .padding(.trailing)
                         }).buttonStyle(PlainButtonStyle()), alignment: .trailing)

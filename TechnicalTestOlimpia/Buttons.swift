@@ -81,7 +81,7 @@ struct BtnHudPrimary: UIViewRepresentable {
     private static let width = UIScreen.main.bounds.size.width
     
     var text: String
-    var textColor: UIColor? = UIColor.nPrimaryText
+    var textColor: UIColor? = UIColor.nSecondaryText
     var fontType: String? = FontConfig.default.robotoBold 
     var fontSize: CGFloat? = FontSizeConfig.default.text
     var color: UIColor? = UIColor.nPrimary
