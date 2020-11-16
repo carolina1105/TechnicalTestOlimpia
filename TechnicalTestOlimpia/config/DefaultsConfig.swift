@@ -16,6 +16,7 @@ class DefaultsConfig {
     
     let keyTheme                 : String = "Theme"
     let keyLanguage              : String = "NapoleonLanguage"
+    let keyThemeType                    : String = "ThemeType"
 
     let keyUser                  : String = "user"
     let keyToken                 : String = "token"

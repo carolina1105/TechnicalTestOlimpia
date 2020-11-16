@@ -3,13 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		181C43A825620AD10009D631 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181C43AA25620AD10009D631 /* Localizable.strings */; };
 		181C43F1256211720009D631 /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C43F0256211720009D631 /* UserDataViewModel.swift */; };
 		181C4413256216220009D631 /* language.json in Resources */ = {isa = PBXBuildFile; fileRef = 181C4412256216210009D631 /* language.json */; };
+		181C443C2562272A0009D631 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C443B2562272A0009D631 /* MenuView.swift */; };
+		181C4443256227D30009D631 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 181C4442256227D30009D631 /* SDWebImageSwiftUI */; };
+		181C4448256227F60009D631 /* MenuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4447256227F60009D631 /* MenuCellView.swift */; };
+		181C446A2562285D0009D631 /* MenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44692562285D0009D631 /* MenuItemModel.swift */; };
+		181C446F256228B60009D631 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C446E256228B60009D631 /* MenuViewModel.swift */; };
+		181C4484256231C80009D631 /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4483256231C80009D631 /* AppearanceSettingsView.swift */; };
+		181C4489256231FD0009D631 /* AppearanceSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4488256231FD0009D631 /* AppearanceSettingsViewModel.swift */; };
+		181C4492256233030009D631 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4491256233030009D631 /* LanguageView.swift */; };
+		181C449B256233430009D631 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C449A256233430009D631 /* LanguageViewModel.swift */; };
+		181C44A0256233720009D631 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C449F256233720009D631 /* ThemeView.swift */; };
+		181C44A9256233AA0009D631 /* ThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44A8256233AA0009D631 /* ThemeViewModel.swift */; };
+		181C44AE256234900009D631 /* LanguageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44AD256234900009D631 /* LanguageRepository.swift */; };
+		181C44B3256237540009D631 /* SettingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44B2256237540009D631 /* SettingCellView.swift */; };
+		181C44B8256238C80009D631 /* LanguageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44B7256238C80009D631 /* LanguageCellView.swift */; };
+		181C44C12562391E0009D631 /* CheckBoxUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44C02562391E0009D631 /* CheckBoxUtility.swift */; };
+		181C44EB2562428C0009D631 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44EA2562428C0009D631 /* ContentViewModel.swift */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -112,6 +128,21 @@
 		181C43B225620AE20009D631 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		181C43F0256211720009D631 /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
 		181C4412256216210009D631 /* language.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = language.json; sourceTree = "<group>"; };
+		181C443B2562272A0009D631 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		181C4447256227F60009D631 /* MenuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellView.swift; sourceTree = "<group>"; };
+		181C44692562285D0009D631 /* MenuItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemModel.swift; sourceTree = "<group>"; };
+		181C446E256228B60009D631 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		181C4483256231C80009D631 /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		181C4488256231FD0009D631 /* AppearanceSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsViewModel.swift; sourceTree = "<group>"; };
+		181C4491256233030009D631 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		181C449A256233430009D631 /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		181C449F256233720009D631 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		181C44A8256233AA0009D631 /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
+		181C44AD256234900009D631 /* LanguageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageRepository.swift; sourceTree = "<group>"; };
+		181C44B2256237540009D631 /* SettingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellView.swift; sourceTree = "<group>"; };
+		181C44B7256238C80009D631 /* LanguageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCellView.swift; sourceTree = "<group>"; };
+		181C44C02562391E0009D631 /* CheckBoxUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUtility.swift; sourceTree = "<group>"; };
+		181C44EA2562428C0009D631 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181C4443256227D30009D631 /* SDWebImageSwiftUI in Frameworks */,
 				2026ECA14D8DA5D44F18B1A2 /* Pods_TechnicalTestOlimpia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +263,54 @@
 				181C4412256216210009D631 /* language.json */,
 			);
 			path = language;
+			sourceTree = "<group>";
+		};
+		181C44402562273F0009D631 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				181C443B2562272A0009D631 /* MenuView.swift */,
+				181C4447256227F60009D631 /* MenuCellView.swift */,
+				181C446E256228B60009D631 /* MenuViewModel.swift */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		181C448D256232100009D631 /* appearancesettings */ = {
+			isa = PBXGroup;
+			children = (
+				181C4483256231C80009D631 /* AppearanceSettingsView.swift */,
+				181C4488256231FD0009D631 /* AppearanceSettingsViewModel.swift */,
+				181C44A4256233760009D631 /* theme */,
+				181C44B2256237540009D631 /* SettingCellView.swift */,
+			);
+			name = appearancesettings;
+			sourceTree = "<group>";
+		};
+		181C4496256233090009D631 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				181C44BC256238CF0009D631 /* cell */,
+				181C4491256233030009D631 /* LanguageView.swift */,
+				181C449A256233430009D631 /* LanguageViewModel.swift */,
+			);
+			name = language;
+			sourceTree = "<group>";
+		};
+		181C44A4256233760009D631 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				181C449F256233720009D631 /* ThemeView.swift */,
+				181C44A8256233AA0009D631 /* ThemeViewModel.swift */,
+			);
+			name = theme;
+			sourceTree = "<group>";
+		};
+		181C44BC256238CF0009D631 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				181C44B7256238C80009D631 /* LanguageCellView.swift */,
+			);
+			name = cell;
 			sourceTree = "<group>";
 		};
 		1844014725605CDC000CABC5 /* camera */ = {
@@ -271,6 +351,7 @@
 				1844020B25609FFF000CABC5 /* UserModel.swift */,
 				184402F82560A788000CABC5 /* LocationModel.swift */,
 				184403462560AB17000CABC5 /* LanguageModel.swift */,
+				181C44692562285D0009D631 /* MenuItemModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -312,6 +393,7 @@
 			isa = PBXGroup;
 			children = (
 				184402732560A5C6000CABC5 /* UserRepository.swift */,
+				181C44AD256234900009D631 /* LanguageRepository.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -402,6 +484,9 @@
 				188DF47B255F8D1D000A729E /* content */,
 				188DF481255F8E63000A729E /* userdata */,
 				184402242560A181000CABC5 /* map */,
+				181C44402562273F0009D631 /* menu */,
+				181C448D256232100009D631 /* appearancesettings */,
+				181C4496256233090009D631 /* language */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -410,6 +495,7 @@
 			isa = PBXGroup;
 			children = (
 				188DF44E255F8A22000A729E /* ContentView.swift */,
+				181C44EA2562428C0009D631 /* ContentViewModel.swift */,
 			);
 			name = content;
 			sourceTree = "<group>";
@@ -501,6 +587,7 @@
 				184403322560A9EE000CABC5 /* SearchBarView.swift */,
 				184403372560AA22000CABC5 /* TextFieldUtility.swift */,
 				184403502560AB6B000CABC5 /* ErrorUtility.swift */,
+				181C44C02562391E0009D631 /* CheckBoxUtility.swift */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -570,6 +657,9 @@
 			dependencies = (
 			);
 			name = TechnicalTestOlimpia;
+			packageProductDependencies = (
+				181C4442256227D30009D631 /* SDWebImageSwiftUI */,
+			);
 			productName = TechnicalTestOlimpia;
 			productReference = 188DF449255F8A22000A729E /* TechnicalTestOlimpia.app */;
 			productType = "com.apple.product-type.application";
@@ -647,6 +737,9 @@
 				de,
 			);
 			mainGroup = 188DF440255F8A22000A729E;
+			packageReferences = (
+				181C4441256227D30009D631 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 188DF44A255F8A22000A729E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -784,6 +877,7 @@
 				184401E925607531000CABC5 /* ApplicationExtension.swift in Sources */,
 				184402FE2560A7FD000CABC5 /* ColorConfig.swift in Sources */,
 				188DF44F255F8A22000A729E /* ContentView.swift in Sources */,
+				181C44AE256234900009D631 /* LanguageRepository.swift in Sources */,
 				184402572560A449000CABC5 /* ResDTO.swift in Sources */,
 				1844030D2560A8B2000CABC5 /* LoadingView.swift in Sources */,
 				1844018D256060DD000CABC5 /* PhotoGridViewCell.swift in Sources */,
@@ -791,9 +885,11 @@
 				188DF49F255F90A7000A729E /* NavigationBarModifier.swift in Sources */,
 				184403B62560AF06000CABC5 /* ReqDTO.swift in Sources */,
 				184402612560A48A000CABC5 /* ErrorDTO.swift in Sources */,
+				181C4448256227F60009D631 /* MenuCellView.swift in Sources */,
 				1844034C2560AB44000CABC5 /* BundleExtension.swift in Sources */,
 				184401A4256061D2000CABC5 /* DirectionalPanGestureRecognizer.swift in Sources */,
 				1844014E25605D16000CABC5 /* CameraView.swift in Sources */,
+				181C446F256228B60009D631 /* MenuViewModel.swift in Sources */,
 				188DF47D255F8E5B000A729E /* UserDataView.swift in Sources */,
 				1844019A2560615B000CABC5 /* PhotoLibrary.swift in Sources */,
 				184401AE25606309000CABC5 /* CircleView.swift in Sources */,
@@ -803,6 +899,7 @@
 				184403512560AB6B000CABC5 /* ErrorUtility.swift in Sources */,
 				184403422560AAED000CABC5 /* LanguageConfig.swift in Sources */,
 				18C9CCD32560B0E5005049F2 /* JsonCodable.swift in Sources */,
+				181C44A0256233720009D631 /* ThemeView.swift in Sources */,
 				184401C1256063E3000CABC5 /* StringExtension.swift in Sources */,
 				184402F92560A788000CABC5 /* LocationModel.swift in Sources */,
 				188DF4C6255F9316000A729E /* FontUtility.swift in Sources */,
@@ -812,11 +909,14 @@
 				188DF4E0255F9879000A729E /* TextFieldStyle.swift in Sources */,
 				1844022B2560A1B4000CABC5 /* LocationViewModel.swift in Sources */,
 				188DF4FA255FA05E000A729E /* FontConfig.swift in Sources */,
+				181C4484256231C80009D631 /* AppearanceSettingsView.swift in Sources */,
 				1844024B2560A34C000CABC5 /* RegisterUserReqDTO.swift in Sources */,
 				184402662560A4AE000CABC5 /* ManagerWS.swift in Sources */,
 				188DF486255F8F68000A729E /* ColorExtension.swift in Sources */,
 				1844017F25605F27000CABC5 /* Math.swift in Sources */,
+				181C44A9256233AA0009D631 /* ThemeViewModel.swift in Sources */,
 				184403332560A9EE000CABC5 /* SearchBarView.swift in Sources */,
+				181C446A2562285D0009D631 /* MenuItemModel.swift in Sources */,
 				188DF496255F9029000A729E /* DeviceExtension.swift in Sources */,
 				1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */,
 				184402262560A18D000CABC5 /* LocationView.swift in Sources */,
@@ -825,10 +925,14 @@
 				18C9CCD82560B130005049F2 /* RegisterUserResDTO.swift in Sources */,
 				1844019525606109000CABC5 /* GalleryViewController.swift in Sources */,
 				184402202560A166000CABC5 /* MapView.swift in Sources */,
+				181C4489256231FD0009D631 /* AppearanceSettingsViewModel.swift in Sources */,
 				184403082560A888000CABC5 /* TableViewConfig.swift in Sources */,
 				1844017525605DD7000CABC5 /* DefaultsConfig.swift in Sources */,
+				181C44B8256238C80009D631 /* LanguageCellView.swift in Sources */,
 				184403382560AA22000CABC5 /* TextFieldUtility.swift in Sources */,
 				184402D42560A6D4000CABC5 /* Constant.swift in Sources */,
+				181C449B256233430009D631 /* LanguageViewModel.swift in Sources */,
+				181C44EB2562428C0009D631 /* ContentViewModel.swift in Sources */,
 				1844020C25609FFF000CABC5 /* UserModel.swift in Sources */,
 				184401D32560658F000CABC5 /* SegueConfig.swift in Sources */,
 				1844025C2560A46A000CABC5 /* ResultResDTO.swift in Sources */,
@@ -836,10 +940,14 @@
 				1844017A25605ED8000CABC5 /* FrameUtility.swift in Sources */,
 				184402742560A5C6000CABC5 /* UserRepository.swift in Sources */,
 				1844014325605CC2000CABC5 /* CameraController.swift in Sources */,
+				181C44B3256237540009D631 /* SettingCellView.swift in Sources */,
+				181C44C12562391E0009D631 /* CheckBoxUtility.swift in Sources */,
 				188DF4A5255F90EA000A729E /* FontsModifiers.swift in Sources */,
 				1844018425605F79000CABC5 /* PhotoPickerController.swift in Sources */,
 				184403032560A858000CABC5 /* LocationCellView.swift in Sources */,
+				181C4492256233030009D631 /* LanguageView.swift in Sources */,
 				181C43F1256211720009D631 /* UserDataViewModel.swift in Sources */,
+				181C443C2562272A0009D631 /* MenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,6 +1283,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		181C4441256227D30009D631 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		181C4442256227D30009D631 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 181C4441256227D30009D631 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 188DF441255F8A22000A729E /* Project object */;
 }

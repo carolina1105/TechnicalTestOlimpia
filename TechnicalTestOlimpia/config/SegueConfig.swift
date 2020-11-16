@@ -13,6 +13,14 @@ class SegueConfig {
     
     var window: UIWindow!
     
+    func getWindow() -> UIWindow? {
+        guard let window = UIWindow.key else {
+            return nil
+        }
+        
+        return window
+    }
+    
     func controller() -> UIViewController? {
         guard let window = UIWindow.key else {
             return nil

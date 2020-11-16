@@ -15,7 +15,8 @@ class UserDataViewModel: ObservableObject {
     @Published var user: UserModel = .empty
     var repository = UserRepository.shared
 //    var repositoryPokemonDetail = PokemonDetailRepository.shared
-    private var nextPage: Int = 0    
+    private var nextPage: Int = 0  
+    @Published var activeSection: Int? = nil
     @Published var name: String = "" {
         didSet {
             user.name = self.name

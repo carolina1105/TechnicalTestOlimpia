@@ -51,3 +51,28 @@ extension UIColor {
     static let tint = UIColor(named: "Tint")
     static let pause = Color("Paused")
 }
+
+
+enum ThemeAppType: String {
+    case systemOne = "1"
+    case systemTwo = "2"
+    case darkOne = "3"
+    case darkTwo = "6"
+    case darkThree = "7"
+    case lightOne = "4"
+    case lightTwo = "5"
+    case LightThree = "8"
+}
+
+struct AppTheme {
+    
+    private static let theme = "Theme"
+    private static let deftheme = "1"
+    
+    static func getTheme() -> String {
+        let defaults = DefaultsConfig.shared
+        let theme = defaults.get(for: AppTheme.theme) as? String ?? AppTheme.deftheme
+        return "-" + theme
+    }
+    
+}

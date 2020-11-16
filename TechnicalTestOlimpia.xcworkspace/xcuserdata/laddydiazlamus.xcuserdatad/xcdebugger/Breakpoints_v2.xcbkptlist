@@ -7,49 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "01BC5F91-C5B4-4C03-A95C-25355B057EB0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TechnicalTestOlimpia/UserDataViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "name"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "42D85BCB-8B5C-4E15-92B6-A7322CEF57A1"
-            shouldBeEnabled = "Yes"
+            uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TechnicalTestOlimpia/UserDataView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A8F1C98-889D-484E-8088-243EB48928AE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TechnicalTestOlimpia/UserDataViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "identification"
-            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27 - 54a22434a606b5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, TechnicalTestOlimpia.AppearanceSettingsView&gt; in TechnicalTestOlimpia.NavigationContent.body.getter : some"
+                  moduleName = "TechnicalTestOlimpia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laddydiazlamus/Documents/DEVELOPER/TechnicalTestOlimpia/TechnicalTestOlimpia/UserDataView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "346">
+               </Location>
+               <Location
+                  uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27 - 5f633f8d50941ba6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, TechnicalTestOlimpia.AppearanceSettingsView&gt; in TechnicalTestOlimpia.NavigationContent.body.getter : some"
+                  moduleName = "TechnicalTestOlimpia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laddydiazlamus/Documents/DEVELOPER/TechnicalTestOlimpia/TechnicalTestOlimpia/UserDataView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

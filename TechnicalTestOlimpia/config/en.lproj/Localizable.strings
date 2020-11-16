@@ -31,3 +31,28 @@
     "TEXT_SEARCH_NAME_OR_ADDRESS" = "Search by name or address";
     "TEXT_PERMISSION_LOCATION_DESC" = "You can enable this permission in the iOS Settings app.";
 /* Location */
+
+/* Menu View */
+    "TEXT_SECURITY_SETTINGS_TITLE" = "Security Settings";
+    "TEXT_APPEARANCE_SETTINGS_TITLE" = "Appearance Settings";
+/* Menu View */
+
+/* Appearance Settings View */
+    "TEXT_COLOR_SCHEME" = "Theme selection";
+    "TEXT_LANGUAGE" = "Language";
+/* Appearance Settings View */
+
+/* Theme View */
+    "TEXT_SECTION_SYSTEM_THEMES" = "SYSTEM THEMES";
+    "TEXT_SECTION_DARK_THEMES" = "DARK THEMES";
+    "TEXT_SECTION_LIGHT_THEMES" = "LIGHT THEMES";
+/* Theme View */
+
+/* language View */
+    "FRENCH_TITLE" = "Français (fr)";
+    "GERMAN_TITLE" = "Deutsch (de)";
+    "PORTUGUESE_TITLE" = "Português (pt)";
+    "ITALIAN_TITLE" = "Italiano (it)";
+    "ENGLISH_TITLE" = "English (en)";
+    "SPANISH_TITLE" = "Español (es)";
+/* language View */

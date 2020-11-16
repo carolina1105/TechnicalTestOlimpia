@@ -11,13 +11,29 @@ struct UserDataView: View {
     var width: CGFloat = UIScreen.main.bounds.size.width
     var btnWidth: CGFloat = 0.8
     var btnHeight: CGFloat = 45
+    private let iconSize: CGFloat = 25.0
+//    private let frmIconSize: CGFloat = 40.0
+    private let offsetXBar: CGFloat = -20
     private var segue = SegueConfig.shared
-
-    @State var username: String = ""
+    private let translationAnimateOut: CGFloat = -100
+    private let translationAnimateIn: CGFloat = 100
+    
+    @State var showMenu = false
     @ObservedObject var userVM = UserDataViewModel.shared
 
     var body: some View {
+        let drag = DragGesture()
+            .onEnded {
+                if $0.translation.width < self.translationAnimateOut {
+                    self.animateOut(animation: true)
+                }
+                if $0.translation.width > self.translationAnimateIn {
+                    self.animateIn()
+                }
+            }
         NavigationView {
+            ZStack{
+
             VStack{
                 ScrollView { 
                     SectionView(title: "TEXT_NAME".localized, username: self.$userVM.name)
@@ -46,11 +62,41 @@ struct UserDataView: View {
                 Spacer()
             }
             .padding(.top)
-            .navigationBarTitle("UserData", displayMode: .inline)
-            .navigationBarColor(UIColor.tint)
+                NavigationContent()
+
+            }
+            .navigationBarItems(leading: Button(action: {
+                self.animateIn()
+                self.showMenu = true
+            }) {
+                HStack {
+                    Text("  ")
+                    Image(systemName: "line.horizontal.3")
+                        .font(.system(size: self.iconSize))
+                        .foregroundColor(Color.nSecondary)
+                    Text("Pokémon")
+                        .titleFont(color: Color.nSecondary)
+                }.offset(x: self.offsetXBar)
+            })
+            .gesture(drag)
+            .navigationBarColor(UIColor.primary)
             .edgesIgnoringSafeArea(.bottom)
         }
-        
+
+        ZStack {
+            if self.$showMenu.wrappedValue {
+                MenuView(isOpacity: .constant(false),
+                         close: {
+                            self.animateOut(animation: true)
+                         }) { tag in
+                    self.userVM.activeSection = tag
+                    self.animateOut(animation: false)
+                }
+                .statusBar(hidden: UIDevice.current.hasNotch ? true : false)
+                .transition(.move(edge: .leading))
+            }
+        }
+        .gesture(drag)
         
     }
     func showGallery() {
@@ -98,6 +144,26 @@ struct UserDataView: View {
         },
         style: .automatic)
     }
+    
+    func animateIn(completion: (() -> Void)? = nil) {
+        let duration: Double = 0.45
+        withAnimation {
+            self.showMenu = true
+        }
+        withAnimation(.easeIn(duration: duration)) {
+            completion?()
+        }
+    }
+    
+    func animateOut(animation: Bool) {
+        if animation {
+            withAnimation {
+                self.showMenu = false
+            }
+        } else {
+            self.showMenu = false
+        }
+    }
 }
 
 struct SectionView: View {
@@ -115,6 +181,30 @@ struct SectionView: View {
     }
 }
 
+struct NavigationContent: View {
+    private let appearanceTag: Int = 1
+    private let securityTag: Int = 2
+    
+    @ObservedObject var userVM = UserDataViewModel.shared
+
+//    @StateObject var userVM: UserDataViewModel
+    
+    var body: some View {
+        ZStack {
+//            NavigationLink(destination: SecuritySettingsView(securitySettings: $inboxVM.activeSection,
+//                                                             showCaseType: $showCaseType),
+//                           tag: securityTag,
+//                           selection: $inboxVM.activeSection) {
+//                Text("")
+//            }
+            NavigationLink(destination: AppearanceSettingsView(),
+                           tag: appearanceTag,
+                           selection: $userVM.activeSection) {
+                Text("")
+            }
+        }
+    }
+}
 struct UserDataView_Previews: PreviewProvider {
     static var previews: some View {
         UserDataView()

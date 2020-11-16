@@ -31,3 +31,28 @@
     "TEXT_SEARCH_NAME_OR_ADDRESS" = "Recherche par nom ou adresse";
     "TEXT_PERMISSION_LOCATION_DESC" = "Vous pouvez activer cette autorisation dans l'application Paramètres iOS.";
 /* Location */
+
+/* Menu View */
+    "TEXT_SECURITY_SETTINGS_TITLE" = "Paramètres de sécurité";
+    "TEXT_APPEARANCE_SETTINGS_TITLE" = "Paramètres d'apparence";
+/* Menu View */
+
+/* Appearance Settings View */
+    "TEXT_COLOR_SCHEME" = "Sélection du thème";
+    "TEXT_LANGUAGE" = "La Langue";
+/* Appearance Settings View */
+
+/* Theme View */
+    "TEXT_SECTION_SYSTEM_THEMES" = "APPARENCE DU SYSTÈME";
+    "TEXT_SECTION_DARK_THEMES" = "THÈMES SOMBRES";
+    "TEXT_SECTION_LIGHT_THEMES" = "THÈMES LUMINEUX";
+/* Theme View */
+
+/* language View */
+    "FRENCH_TITLE" = "Français (fr)";
+    "GERMAN_TITLE" = "Deutsch (de)";
+    "PORTUGUESE_TITLE" = "Português (pt)";
+    "ITALIAN_TITLE" = "Italiano (it)";
+    "ENGLISH_TITLE" = "English (en)";
+    "SPANISH_TITLE" = "Español (es)";
+/* language View */
