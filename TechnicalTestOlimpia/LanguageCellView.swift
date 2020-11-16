@@ -49,7 +49,7 @@ struct LanguageCellView: View {
                         HStack(alignment: .center) {
                             Text("\(language.language.localized)")
                                 .font(name: FontConfig.default.robotoRegular, size: FontSizeConfig.default.text)
-                                .foregroundColor(Color.secondaryText)
+                                .foregroundColor(Color.primaryText)
                         }
                     }
                 }

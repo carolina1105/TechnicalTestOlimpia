@@ -57,3 +57,8 @@
     "SPANISH_TITLE" = "Español (es)";
     "TEXT_SELECT_LANGUAGE" = "Récupérer Compte";
 /* language View */
+
+/* Options Panel Photo View */
+    "TEXT_TAKE_PHOTO" = "Prendre Photo";
+    "TEXT_SELECT_PHOTO" = "Sélectionnez Photo";
+/* Options Panel Photo View */

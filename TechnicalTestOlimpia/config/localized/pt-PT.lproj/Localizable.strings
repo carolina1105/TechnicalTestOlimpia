@@ -57,3 +57,8 @@
     "SPANISH_TITLE" = "Español (es)";
     "TEXT_SELECT_LANGUAGE" = "Selecionar Idioma";
 /* language View */
+
+/* Options Panel Photo View */
+    "TEXT_TAKE_PHOTO" = "Tirar Fotos";
+    "TEXT_SELECT_PHOTO" = "Selecionar Foto";
+/* Options Panel Photo View */

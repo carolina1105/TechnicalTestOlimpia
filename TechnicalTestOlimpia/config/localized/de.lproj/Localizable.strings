@@ -58,3 +58,7 @@
     "TEXT_SELECT_LANGUAGE" = "Wählen Sie Sprache";
 /* language View */
 
+/* Options Panel Photo View */
+    "TEXT_TAKE_PHOTO" = "Foto Machen";
+    "TEXT_SELECT_PHOTO" = "Foto Auswählen";
+/* Options Panel Photo View */

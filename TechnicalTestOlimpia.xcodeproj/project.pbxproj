@@ -27,6 +27,8 @@
 		181C44C12562391E0009D631 /* CheckBoxUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44C02562391E0009D631 /* CheckBoxUtility.swift */; };
 		181C44EB2562428C0009D631 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44EA2562428C0009D631 /* ContentViewModel.swift */; };
 		181C45E2256251620009D631 /* RegisterUserResDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C45E1256251620009D631 /* RegisterUserResDTO.swift */; };
+		181C4652256258370009D631 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4651256258370009D631 /* CoreBluetooth.swift */; };
+		181C469A2562DD4D0009D631 /* OptionsPanelPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -144,6 +146,8 @@
 		181C44C02562391E0009D631 /* CheckBoxUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUtility.swift; sourceTree = "<group>"; };
 		181C44EA2562428C0009D631 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		181C45E1256251620009D631 /* RegisterUserResDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserResDTO.swift; sourceTree = "<group>"; };
+		181C4651256258370009D631 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
+		181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPanelPhotoView.swift; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -754,6 +758,14 @@
 			path = req;
 			sourceTree = "<group>";
 		};
+		181C469E2562DD630009D631 /* panelphoto */ = {
+			isa = PBXGroup;
+			children = (
+				181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */,
+			);
+			name = panelphoto;
+			sourceTree = "<group>";
+		};
 		1844014725605CDC000CABC5 /* camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -919,6 +931,7 @@
 				181C44402562273F0009D631 /* menu */,
 				181C448D256232100009D631 /* appearancesettings */,
 				181C4496256233090009D631 /* language */,
+				181C469E2562DD630009D631 /* panelphoto */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -1020,6 +1033,7 @@
 				181C459025624EDD0009D631 /* textfield */,
 				181C459425624EEC0009D631 /* error */,
 				181C459525624EF30009D631 /* chekbox */,
+				181C4651256258370009D631 /* CoreBluetooth.swift */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -1331,6 +1345,7 @@
 				184403512560AB6B000CABC5 /* ErrorUtility.swift in Sources */,
 				184403422560AAED000CABC5 /* LanguageConfig.swift in Sources */,
 				18C9CCD32560B0E5005049F2 /* JsonCodable.swift in Sources */,
+				181C469A2562DD4D0009D631 /* OptionsPanelPhotoView.swift in Sources */,
 				181C44A0256233720009D631 /* ThemeView.swift in Sources */,
 				184401C1256063E3000CABC5 /* StringExtension.swift in Sources */,
 				184402F92560A788000CABC5 /* LocationModel.swift in Sources */,
@@ -1362,6 +1377,7 @@
 				1844017525605DD7000CABC5 /* DefaultsConfig.swift in Sources */,
 				181C44B8256238C80009D631 /* LanguageCellView.swift in Sources */,
 				184403382560AA22000CABC5 /* TextFieldUtility.swift in Sources */,
+				181C4652256258370009D631 /* CoreBluetooth.swift in Sources */,
 				184402D42560A6D4000CABC5 /* Constant.swift in Sources */,
 				181C449B256233430009D631 /* LanguageViewModel.swift in Sources */,
 				181C44EB2562428C0009D631 /* ContentViewModel.swift in Sources */,

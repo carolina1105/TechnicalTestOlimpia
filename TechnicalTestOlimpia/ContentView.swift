@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var bleManager = BLEManager()
     @StateObject var contentVM = ContentViewModel()
 
     var body: some View {
         ZStack {
             UserDataView()
+        }.onAppear{
+            if bleManager.isSwitchedOn {
+                print("Bluetooth is switched on")
+            }
+            else {
+                print("Bluetooth is NOT switched on")
+            }
         }
     }
 }

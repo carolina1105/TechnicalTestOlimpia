@@ -11,14 +11,16 @@ struct UserDataView: View {
     var width: CGFloat = UIScreen.main.bounds.size.width
     var btnWidth: CGFloat = 0.8
     var btnHeight: CGFloat = 45
+    let animation = 0.5
     private let iconSize: CGFloat = 25.0
-//    private let frmIconSize: CGFloat = 40.0
     private let offsetXBar: CGFloat = -20
     private var segue = SegueConfig.shared
     private let translationAnimateOut: CGFloat = -100
     private let translationAnimateIn: CGFloat = 100
     
     @State var showMenu = false
+    @State var showCapture: Bool = false
+    @State var isOpacity: Bool = false
     @ObservedObject var userVM = UserDataViewModel.shared
 
     var body: some View {
@@ -42,6 +44,9 @@ struct UserDataView: View {
                     SectionView(title: "TEXT_CITY".localized, username: self.$userVM.city)
                     SectionView(title: "TEXT_COUNTRY".localized, username: self.$userVM.country)
                     SectionView(title: "TEXT_CELLPHONE".localized, username: self.$userVM.cellphone)
+                    SectionPhoto(title: "TEXT_SELECT_PHOTO".localized, didCaptureImage: {_ in 
+                        self.animateInPhoto()
+                    })
 
                 }
                 BtnHudPrimary(text: "TEXT_NEXT".localized) {  btn in
@@ -82,7 +87,20 @@ struct UserDataView: View {
             .navigationBarColor(UIColor.primary)
             .edgesIgnoringSafeArea(.bottom)
         }
-
+        if self.$showCapture.wrappedValue {
+            OptionsPanelPhotoView(showCapture: self.$showCapture,
+                                  isRestore: false,
+                                  title: "cambiar foto",
+                                  didRestore: {
+//                                    self.profileVM.showAlertRestoreImage()
+                                  }) { sourceType in
+                if sourceType == .camera {
+                    self.showCamera()
+                } else {
+                    self.showGallery()
+                }
+            }.edgesIgnoringSafeArea(.all)
+        }
         ZStack {
             if self.$showMenu.wrappedValue {
                 MenuView(isOpacity: .constant(false),
@@ -120,6 +138,14 @@ struct UserDataView: View {
         
     }
     
+    func animateInPhoto() {
+        withAnimation {
+            self.showCapture.toggle()
+        }
+        withAnimation(.easeIn(duration: animation)) {
+            self.isOpacity.toggle()
+        }
+    }
     func showCamera() {
         segue.navigation(view: CameraView(
                                           didSendPhoto: { photo, message in
@@ -177,7 +203,33 @@ struct SectionView: View {
             TextField(title, text: $username)
                 .textFieldStyle(CustomTextFieldStyle(status: .default))
         }
-        .padding()
+        .padding(.horizontal)
+        .padding(.vertical, 10)
+    }
+}
+
+struct SectionPhoto: View {
+    var title: String
+    var didCaptureImage: (Bool) -> Void
+    private let sizeIconSmall: CGFloat = 25
+    private let paddingBottonIcon:CGFloat = 35
+    
+    var body: some View {
+        HStack {
+            Text(title + ":")
+                .titleFont()
+            Spacer()
+            Button(action: {
+                self.didCaptureImage(false)
+            }) {
+                Image(systemName: "photo.fill")
+                    .font(name: FontConfig.default.robotoBold,
+                          size: sizeIconSmall)
+                    .foregroundColor(Color.tint)
+            }
+        }
+        .padding(.horizontal)
+        .padding(.vertical, 10)
     }
 }
 
