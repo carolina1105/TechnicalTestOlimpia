@@ -7,39 +7,6 @@
 
 import SwiftUI
 
-//struct TextFieldForm: View {
-//
-//    private static let width = UIScreen.main.bounds.size.width
-//
-//    var placeholder: String = "Placeholder"
-//    @Binding var text: String
-//    var width: CGFloat = (TextFieldForm.width * 0.9)
-//    var height: CGFloat = CGFloat(35.0)
-//    var color: Color = ColorConfig.shared.secondaryText
-//    var background: Color = ColorConfig.shared.primaryText
-//    var margin: CGFloat = CGFloat(5.0)
-//    var corner: CGFloat = CGFloat(5.0)
-//    var fontType: String = FontConfig.default.robotoRegular
-//    var fontSize: CGFloat = FontSizeConfig.default.text
-//    var border: CGFloat? = CGFloat(1)
-//    var onEditingChanged: (Bool) -> Void
-//
-//    var body: some View {
-//        TextField(placeholder,
-//              text: $text,
-//              onEditingChanged: onEditingChanged)
-//        .frame(width: width,
-//               height: height)
-//        .font(name: fontType,
-//              size: fontSize)
-//        .padding(.all, margin)
-//        .foregroundColor(color)
-//        .background(background)
-//        .border(color, width: border!)
-//        .cornerRadius(corner)
-//    }
-//}
-
 struct TextFieldForm: View {
     
     var placeholder: String = ""

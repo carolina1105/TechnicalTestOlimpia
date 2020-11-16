@@ -26,6 +26,7 @@
 		181C44B8256238C80009D631 /* LanguageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44B7256238C80009D631 /* LanguageCellView.swift */; };
 		181C44C12562391E0009D631 /* CheckBoxUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44C02562391E0009D631 /* CheckBoxUtility.swift */; };
 		181C44EB2562428C0009D631 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C44EA2562428C0009D631 /* ContentViewModel.swift */; };
+		181C45E2256251620009D631 /* RegisterUserResDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C45E1256251620009D631 /* RegisterUserResDTO.swift */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -93,10 +94,9 @@
 		188DF4BC255F926E000A729E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188DF4B6255F926E000A729E /* Roboto-Bold.ttf */; };
 		188DF4C6255F9316000A729E /* FontUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF4C5255F9316000A729E /* FontUtility.swift */; };
 		188DF4E0255F9879000A729E /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF4DF255F9879000A729E /* TextFieldStyle.swift */; };
-		188DF4E8255F9D7B000A729E /* Buttos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF4E7255F9D7B000A729E /* Buttos.swift */; };
+		188DF4E8255F9D7B000A729E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF4E7255F9D7B000A729E /* Buttons.swift */; };
 		188DF4FA255FA05E000A729E /* FontConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF4F9255FA05E000A729E /* FontConfig.swift */; };
 		18C9CCD32560B0E5005049F2 /* JsonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CCD22560B0E5005049F2 /* JsonCodable.swift */; };
-		18C9CCD82560B130005049F2 /* RegisterUserResDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CCD72560B130005049F2 /* RegisterUserResDTO.swift */; };
 		2026ECA14D8DA5D44F18B1A2 /* Pods_TechnicalTestOlimpia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104D932BBF7803A0EC55A568 /* Pods_TechnicalTestOlimpia.framework */; };
 		44193F3BED0FDA52F5B68D59 /* Pods_TechnicalTestOlimpiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576BB9596F2D1705CCF95027 /* Pods_TechnicalTestOlimpiaTests.framework */; };
 /* End PBXBuildFile section */
@@ -143,6 +143,7 @@
 		181C44B7256238C80009D631 /* LanguageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCellView.swift; sourceTree = "<group>"; };
 		181C44C02562391E0009D631 /* CheckBoxUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUtility.swift; sourceTree = "<group>"; };
 		181C44EA2562428C0009D631 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		181C45E1256251620009D631 /* RegisterUserResDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserResDTO.swift; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -216,10 +217,9 @@
 		188DF4B6255F926E000A729E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		188DF4C5255F9316000A729E /* FontUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontUtility.swift; sourceTree = "<group>"; };
 		188DF4DF255F9879000A729E /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
-		188DF4E7255F9D7B000A729E /* Buttos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttos.swift; sourceTree = "<group>"; };
+		188DF4E7255F9D7B000A729E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		188DF4F9255FA05E000A729E /* FontConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontConfig.swift; sourceTree = "<group>"; };
 		18C9CCD22560B0E5005049F2 /* JsonCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonCodable.swift; sourceTree = "<group>"; };
-		18C9CCD72560B130005049F2 /* RegisterUserResDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterUserResDTO.swift; path = TechnicalTestOlimpia/extension/RegisterUserResDTO.swift; sourceTree = SOURCE_ROOT; };
 		1C017A812F9B053579E66783 /* Pods-TechnicalTestOlimpiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestOlimpiaTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestOlimpiaTests/Pods-TechnicalTestOlimpiaTests.release.xcconfig"; sourceTree = "<group>"; };
 		506F11F158851D5A87CC716F /* Pods-TechnicalTestOlimpia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestOlimpia.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestOlimpia/Pods-TechnicalTestOlimpia.release.xcconfig"; sourceTree = "<group>"; };
 		576BB9596F2D1705CCF95027 /* Pods_TechnicalTestOlimpiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalTestOlimpiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,8 +268,8 @@
 		181C44402562273F0009D631 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				181C45B2256250400009D631 /* cell */,
 				181C443B2562272A0009D631 /* MenuView.swift */,
-				181C4447256227F60009D631 /* MenuCellView.swift */,
 				181C446E256228B60009D631 /* MenuViewModel.swift */,
 			);
 			name = menu;
@@ -278,10 +278,10 @@
 		181C448D256232100009D631 /* appearancesettings */ = {
 			isa = PBXGroup;
 			children = (
+				181C45B3256250630009D631 /* cell */,
+				181C44A4256233760009D631 /* theme */,
 				181C4483256231C80009D631 /* AppearanceSettingsView.swift */,
 				181C4488256231FD0009D631 /* AppearanceSettingsViewModel.swift */,
-				181C44A4256233760009D631 /* theme */,
-				181C44B2256237540009D631 /* SettingCellView.swift */,
 			);
 			name = appearancesettings;
 			sourceTree = "<group>";
@@ -313,12 +313,452 @@
 			name = cell;
 			sourceTree = "<group>";
 		};
-		1844014725605CDC000CABC5 /* camera */ = {
+		181C450C25624B440009D631 /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				1844017925605ED8000CABC5 /* FrameUtility.swift */,
+			);
+			path = frame;
+			sourceTree = "<group>";
+		};
+		181C451025624B4C0009D631 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				1844017E25605F27000CABC5 /* Math.swift */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		181C451425624B590009D631 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				184401A825606279000CABC5 /* UIButton+Events.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		181C451B25624B610009D631 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				184401B625606362000CABC5 /* ViewExtension.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		181C452225624B6B0009D631 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				184401C0256063E3000CABC5 /* StringExtension.swift */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
+		181C452C25624B740009D631 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				184401E825607531000CABC5 /* ApplicationExtension.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		181C453325624B7E0009D631 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1844033C2560AA8E000CABC5 /* ImageExtension.swift */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		181C453725624B850009D631 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				1844034B2560AB44000CABC5 /* BundleExtension.swift */,
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
+		181C454125624B930009D631 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				18C9CCD22560B0E5005049F2 /* JsonCodable.swift */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		181C458225624E9E0009D631 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4C5255F9316000A729E /* FontUtility.swift */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		181C458625624EAC0009D631 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				184401BB2560639B000CABC5 /* FileSystem.swift */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		181C458725624EB70009D631 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				1844030C2560A8B2000CABC5 /* LoadingView.swift */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+		181C458B25624EC10009D631 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				184403112560A8E2000CABC5 /* WeakTimer.swift */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		181C458F25624ED40009D631 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				184403322560A9EE000CABC5 /* SearchBarView.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		181C459025624EDD0009D631 /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				184403372560AA22000CABC5 /* TextFieldUtility.swift */,
+			);
+			path = textfield;
+			sourceTree = "<group>";
+		};
+		181C459425624EEC0009D631 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				184403502560AB6B000CABC5 /* ErrorUtility.swift */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		181C459525624EF30009D631 /* chekbox */ = {
+			isa = PBXGroup;
+			children = (
+				181C44C02562391E0009D631 /* CheckBoxUtility.swift */,
+			);
+			path = chekbox;
+			sourceTree = "<group>";
+		};
+		181C459625624F080009D631 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4F9255FA05E000A729E /* FontConfig.swift */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		181C459725624F120009D631 /* defaults */ = {
+			isa = PBXGroup;
+			children = (
+				1844017425605DD7000CABC5 /* DefaultsConfig.swift */,
+			);
+			path = defaults;
+			sourceTree = "<group>";
+		};
+		181C459B25624F2A0009D631 /* segue */ = {
+			isa = PBXGroup;
+			children = (
+				184401D22560658F000CABC5 /* SegueConfig.swift */,
+			);
+			path = segue;
+			sourceTree = "<group>";
+		};
+		181C459C25624F310009D631 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				184402FD2560A7FD000CABC5 /* ColorConfig.swift */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		181C459D25624F390009D631 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				184403072560A888000CABC5 /* TableViewConfig.swift */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		181C459E25624F420009D631 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				184403412560AAED000CABC5 /* LanguageConfig.swift */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		181C45A225624F4C0009D631 /* localized */ = {
+			isa = PBXGroup;
+			children = (
+				181C43AA25620AD10009D631 /* Localizable.strings */,
+			);
+			path = localized;
+			sourceTree = "<group>";
+		};
+		181C45A625624F700009D631 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4E7255F9D7B000A729E /* Buttons.swift */,
+			);
+			name = buttons;
+			sourceTree = "<group>";
+		};
+		181C45A725624F860009D631 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				1844013D25605C7D000CABC5 /* Camera.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		181C45A825624F920009D631 /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				1844014225605CC2000CABC5 /* CameraController.swift */,
 				1844014825605CF0000CABC5 /* CameraViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		181C45A925624F9F0009D631 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1844018C256060DD000CABC5 /* PhotoGridViewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		181C45AA25624FB00009D631 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1844018325605F79000CABC5 /* PhotoPickerController.swift */,
+				1844019425606109000CABC5 /* GalleryViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		181C45AB25624FB80009D631 /* photolibrary */ = {
+			isa = PBXGroup;
+			children = (
+				184401992560615B000CABC5 /* PhotoLibrary.swift */,
+			);
+			name = photolibrary;
+			sourceTree = "<group>";
+		};
+		181C45AC25624FCA0009D631 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				188DF49E255F90A7000A729E /* NavigationBarModifier.swift */,
+			);
+			name = navigation;
+			sourceTree = "<group>";
+		};
+		181C45AD25624FD20009D631 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4A4255F90EA000A729E /* FontsModifiers.swift */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		181C45AE25624FD90009D631 /* cornerradius */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4AC255F9108000A729E /* CornerRadiusStyle.swift */,
+			);
+			name = cornerradius;
+			sourceTree = "<group>";
+		};
+		181C45AF25624FE30009D631 /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				188DF4DF255F9879000A729E /* TextFieldStyle.swift */,
+			);
+			name = textfield;
+			sourceTree = "<group>";
+		};
+		181C45B0256250130009D631 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				181C45B1256250310009D631 /* cell */,
+				184402242560A181000CABC5 /* map */,
+				184402252560A18D000CABC5 /* LocationView.swift */,
+				1844022A2560A1B4000CABC5 /* LocationViewModel.swift */,
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		181C45B1256250310009D631 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				184403022560A858000CABC5 /* LocationCellView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		181C45B2256250400009D631 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				181C4447256227F60009D631 /* MenuCellView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		181C45B3256250630009D631 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				181C44B2256237540009D631 /* SettingCellView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		181C45B4256250790009D631 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				1844020B25609FFF000CABC5 /* UserModel.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		181C45B8256250800009D631 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				184402F82560A788000CABC5 /* LocationModel.swift */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		181C45BC256250880009D631 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				184403462560AB17000CABC5 /* LanguageModel.swift */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		181C45C02562508E0009D631 /* menuitem */ = {
+			isa = PBXGroup;
+			children = (
+				181C44692562285D0009D631 /* MenuItemModel.swift */,
+			);
+			path = menuitem;
+			sourceTree = "<group>";
+		};
+		181C45CA256250A20009D631 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				184402732560A5C6000CABC5 /* UserRepository.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		181C45CE256250AA0009D631 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				181C44AD256234900009D631 /* LanguageRepository.swift */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		181C45D5256250BB0009D631 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				184402652560A4AE000CABC5 /* ManagerWS.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		181C45D9256250C30009D631 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				1844026B2560A554000CABC5 /* UserWS.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		181C45E0256250D40009D631 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				181C460A256252090009D631 /* res */,
+				181C460E256252110009D631 /* result */,
+				181C4612256252190009D631 /* registeruser */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		181C4606256251FE0009D631 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				181C462A256252450009D631 /* req */,
+				181C46232562523C0009D631 /* error */,
+				181C461C2562522E0009D631 /* registeruser */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		181C460A256252090009D631 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				184402562560A449000CABC5 /* ResDTO.swift */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		181C460E256252110009D631 /* result */ = {
+			isa = PBXGroup;
+			children = (
+				1844025B2560A46A000CABC5 /* ResultResDTO.swift */,
+			);
+			path = result;
+			sourceTree = "<group>";
+		};
+		181C4612256252190009D631 /* registeruser */ = {
+			isa = PBXGroup;
+			children = (
+				181C45E1256251620009D631 /* RegisterUserResDTO.swift */,
+			);
+			path = registeruser;
+			sourceTree = "<group>";
+		};
+		181C461C2562522E0009D631 /* registeruser */ = {
+			isa = PBXGroup;
+			children = (
+				1844024A2560A34C000CABC5 /* RegisterUserReqDTO.swift */,
+			);
+			path = registeruser;
+			sourceTree = "<group>";
+		};
+		181C46232562523C0009D631 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				184402602560A48A000CABC5 /* ErrorDTO.swift */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		181C462A256252450009D631 /* req */ = {
+			isa = PBXGroup;
+			children = (
+				184403B52560AF06000CABC5 /* ReqDTO.swift */,
+			);
+			path = req;
+			sourceTree = "<group>";
+		};
+		1844014725605CDC000CABC5 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				181C45A725624F860009D631 /* view */,
+				181C45A825624F920009D631 /* controller */,
 				1844014D25605D16000CABC5 /* CameraView.swift */,
 			);
 			name = camera;
@@ -327,10 +767,9 @@
 		1844018B25605F95000CABC5 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
-				1844018325605F79000CABC5 /* PhotoPickerController.swift */,
-				1844018C256060DD000CABC5 /* PhotoGridViewCell.swift */,
-				1844019425606109000CABC5 /* GalleryViewController.swift */,
-				184401992560615B000CABC5 /* PhotoLibrary.swift */,
+				181C45A925624F9F0009D631 /* cell */,
+				181C45AA25624FB00009D631 /* controller */,
+				181C45AB25624FB80009D631 /* photolibrary */,
 				1844019E2560617D000CABC5 /* GalleryView.swift */,
 			);
 			name = gallery;
@@ -348,10 +787,10 @@
 		184402132560A00A000CABC5 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				1844020B25609FFF000CABC5 /* UserModel.swift */,
-				184402F82560A788000CABC5 /* LocationModel.swift */,
-				184403462560AB17000CABC5 /* LanguageModel.swift */,
-				181C44692562285D0009D631 /* MenuItemModel.swift */,
+				181C45B4256250790009D631 /* user */,
+				181C45B8256250800009D631 /* location */,
+				181C45BC256250880009D631 /* language */,
+				181C45C02562508E0009D631 /* menuitem */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -360,9 +799,6 @@
 			isa = PBXGroup;
 			children = (
 				1844021F2560A166000CABC5 /* MapView.swift */,
-				184402252560A18D000CABC5 /* LocationView.swift */,
-				1844022A2560A1B4000CABC5 /* LocationViewModel.swift */,
-				184403022560A858000CABC5 /* LocationCellView.swift */,
 			);
 			name = map;
 			sourceTree = "<group>";
@@ -370,12 +806,8 @@
 		1844024F2560A364000CABC5 /* dto */ = {
 			isa = PBXGroup;
 			children = (
-				1844024A2560A34C000CABC5 /* RegisterUserReqDTO.swift */,
-				184402562560A449000CABC5 /* ResDTO.swift */,
-				1844025B2560A46A000CABC5 /* ResultResDTO.swift */,
-				184402602560A48A000CABC5 /* ErrorDTO.swift */,
-				184403B52560AF06000CABC5 /* ReqDTO.swift */,
-				18C9CCD72560B130005049F2 /* RegisterUserResDTO.swift */,
+				181C45E0256250D40009D631 /* response */,
+				181C4606256251FE0009D631 /* request */,
 			);
 			path = dto;
 			sourceTree = "<group>";
@@ -383,8 +815,8 @@
 		1844026A2560A4C2000CABC5 /* ws */ = {
 			isa = PBXGroup;
 			children = (
-				184402652560A4AE000CABC5 /* ManagerWS.swift */,
-				1844026B2560A554000CABC5 /* UserWS.swift */,
+				181C45D5256250BB0009D631 /* manager */,
+				181C45D9256250C30009D631 /* user */,
 			);
 			path = ws;
 			sourceTree = "<group>";
@@ -392,8 +824,8 @@
 		184402782560A5DD000CABC5 /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				184402732560A5C6000CABC5 /* UserRepository.swift */,
-				181C44AD256234900009D631 /* LanguageRepository.swift */,
+				181C45CA256250A20009D631 /* user */,
+				181C45CE256250AA0009D631 /* language */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -483,7 +915,7 @@
 				188DF4A3255F90CA000A729E /* modifiers */,
 				188DF47B255F8D1D000A729E /* content */,
 				188DF481255F8E63000A729E /* userdata */,
-				184402242560A181000CABC5 /* map */,
+				181C45B0256250130009D631 /* location */,
 				181C44402562273F0009D631 /* menu */,
 				181C448D256232100009D631 /* appearancesettings */,
 				181C4496256233090009D631 /* language */,
@@ -514,15 +946,15 @@
 			children = (
 				188DF491255F900D000A729E /* color */,
 				188DF49A255F903B000A729E /* device */,
-				1844017925605ED8000CABC5 /* FrameUtility.swift */,
-				1844017E25605F27000CABC5 /* Math.swift */,
-				184401A825606279000CABC5 /* UIButton+Events.swift */,
-				184401B625606362000CABC5 /* ViewExtension.swift */,
-				184401C0256063E3000CABC5 /* StringExtension.swift */,
-				184401E825607531000CABC5 /* ApplicationExtension.swift */,
-				1844033C2560AA8E000CABC5 /* ImageExtension.swift */,
-				1844034B2560AB44000CABC5 /* BundleExtension.swift */,
-				18C9CCD22560B0E5005049F2 /* JsonCodable.swift */,
+				181C450C25624B440009D631 /* frame */,
+				181C451025624B4C0009D631 /* math */,
+				181C451425624B590009D631 /* button */,
+				181C451B25624B610009D631 /* view */,
+				181C452225624B6B0009D631 /* string */,
+				181C452C25624B740009D631 /* application */,
+				181C453325624B7E0009D631 /* image */,
+				181C453725624B850009D631 /* bundle */,
+				181C454125624B930009D631 /* json */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -546,10 +978,10 @@
 		188DF4A3255F90CA000A729E /* modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				188DF49E255F90A7000A729E /* NavigationBarModifier.swift */,
-				188DF4A4255F90EA000A729E /* FontsModifiers.swift */,
-				188DF4AC255F9108000A729E /* CornerRadiusStyle.swift */,
-				188DF4DF255F9879000A729E /* TextFieldStyle.swift */,
+				181C45AC25624FCA0009D631 /* navigation */,
+				181C45AD25624FD20009D631 /* fonts */,
+				181C45AE25624FD90009D631 /* cornerradius */,
+				181C45AF25624FE30009D631 /* textfield */,
 			);
 			name = modifiers;
 			sourceTree = "<group>";
@@ -579,15 +1011,15 @@
 		188DF4CA255F932E000A729E /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				188DF4C5255F9316000A729E /* FontUtility.swift */,
+				181C458225624E9E0009D631 /* font */,
 				184401B22560630D000CABC5 /* view */,
-				184401BB2560639B000CABC5 /* FileSystem.swift */,
-				1844030C2560A8B2000CABC5 /* LoadingView.swift */,
-				184403112560A8E2000CABC5 /* WeakTimer.swift */,
-				184403322560A9EE000CABC5 /* SearchBarView.swift */,
-				184403372560AA22000CABC5 /* TextFieldUtility.swift */,
-				184403502560AB6B000CABC5 /* ErrorUtility.swift */,
-				181C44C02562391E0009D631 /* CheckBoxUtility.swift */,
+				181C458625624EAC0009D631 /* file */,
+				181C458725624EB70009D631 /* loading */,
+				181C458B25624EC10009D631 /* timer */,
+				181C458F25624ED40009D631 /* search */,
+				181C459025624EDD0009D631 /* textfield */,
+				181C459425624EEC0009D631 /* error */,
+				181C459525624EF30009D631 /* chekbox */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -595,7 +1027,7 @@
 		188DF4DB255F9777000A729E /* components */ = {
 			isa = PBXGroup;
 			children = (
-				188DF4E7255F9D7B000A729E /* Buttos.swift */,
+				181C45A625624F700009D631 /* buttons */,
 				1844014725605CDC000CABC5 /* camera */,
 				1844018B25605F95000CABC5 /* gallery */,
 			);
@@ -605,13 +1037,13 @@
 		188DF4FE255FA070000A729E /* config */ = {
 			isa = PBXGroup;
 			children = (
-				188DF4F9255FA05E000A729E /* FontConfig.swift */,
-				1844017425605DD7000CABC5 /* DefaultsConfig.swift */,
-				184401D22560658F000CABC5 /* SegueConfig.swift */,
-				184402FD2560A7FD000CABC5 /* ColorConfig.swift */,
-				184403072560A888000CABC5 /* TableViewConfig.swift */,
-				184403412560AAED000CABC5 /* LanguageConfig.swift */,
-				181C43AA25620AD10009D631 /* Localizable.strings */,
+				181C459625624F080009D631 /* font */,
+				181C459725624F120009D631 /* defaults */,
+				181C459B25624F2A0009D631 /* segue */,
+				181C459C25624F310009D631 /* color */,
+				181C459D25624F390009D631 /* table */,
+				181C459E25624F420009D631 /* language */,
+				181C45A225624F4C0009D631 /* localized */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -904,13 +1336,14 @@
 				184402F92560A788000CABC5 /* LocationModel.swift in Sources */,
 				188DF4C6255F9316000A729E /* FontUtility.swift in Sources */,
 				188DF4AD255F9108000A729E /* CornerRadiusStyle.swift in Sources */,
-				188DF4E8255F9D7B000A729E /* Buttos.swift in Sources */,
+				188DF4E8255F9D7B000A729E /* Buttons.swift in Sources */,
 				1844026C2560A554000CABC5 /* UserWS.swift in Sources */,
 				188DF4E0255F9879000A729E /* TextFieldStyle.swift in Sources */,
 				1844022B2560A1B4000CABC5 /* LocationViewModel.swift in Sources */,
 				188DF4FA255FA05E000A729E /* FontConfig.swift in Sources */,
 				181C4484256231C80009D631 /* AppearanceSettingsView.swift in Sources */,
 				1844024B2560A34C000CABC5 /* RegisterUserReqDTO.swift in Sources */,
+				181C45E2256251620009D631 /* RegisterUserResDTO.swift in Sources */,
 				184402662560A4AE000CABC5 /* ManagerWS.swift in Sources */,
 				188DF486255F8F68000A729E /* ColorExtension.swift in Sources */,
 				1844017F25605F27000CABC5 /* Math.swift in Sources */,
@@ -922,7 +1355,6 @@
 				184402262560A18D000CABC5 /* LocationView.swift in Sources */,
 				1844019F2560617D000CABC5 /* GalleryView.swift in Sources */,
 				184403472560AB17000CABC5 /* LanguageModel.swift in Sources */,
-				18C9CCD82560B130005049F2 /* RegisterUserResDTO.swift in Sources */,
 				1844019525606109000CABC5 /* GalleryViewController.swift in Sources */,
 				184402202560A166000CABC5 /* MapView.swift in Sources */,
 				181C4489256231FD0009D631 /* AppearanceSettingsViewModel.swift in Sources */,

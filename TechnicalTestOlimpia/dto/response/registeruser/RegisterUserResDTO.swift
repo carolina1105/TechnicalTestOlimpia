@@ -2,7 +2,7 @@
 //  RegisterUserResDTO.swift
 //  TechnicalTestOlimpia
 //
-//  Created by Laddy Diaz Lamus on 14/11/20.
+//  Created by Laddy Diaz Lamus on 16/11/20.
 //
 
 import Foundation

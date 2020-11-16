@@ -31,12 +31,4 @@ public extension UIDevice {
         let bottom = window.safeAreaInsets.bottom
         return bottom > 0
     }
-    
-    var isZoomed: Bool {
-        return (UIScreen.main.nativeScale > UIDevice.standarScale)
-    }
-    
-    static func vibrate() {
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-    }
 }
