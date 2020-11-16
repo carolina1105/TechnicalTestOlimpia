@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TechnicalTestOlimpia/UserDataView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27 - 54a22434a606b5b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, TechnicalTestOlimpia.AppearanceSettingsView&gt; in TechnicalTestOlimpia.NavigationContent.body.getter : some"
-                  moduleName = "TechnicalTestOlimpia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/laddydiazlamus/Documents/DEVELOPER/TechnicalTestOlimpia/TechnicalTestOlimpia/UserDataView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "200"
-                  endingLineNumber = "200"
-                  offsetFromSymbolStart = "346">
-               </Location>
-               <Location
-                  uuid = "4B02D7AC-7DB2-40B3-BF2A-A5D56A033F27 - 5f633f8d50941ba6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, TechnicalTestOlimpia.AppearanceSettingsView&gt; in TechnicalTestOlimpia.NavigationContent.body.getter : some"
-                  moduleName = "TechnicalTestOlimpia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/laddydiazlamus/Documents/DEVELOPER/TechnicalTestOlimpia/TechnicalTestOlimpia/UserDataView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "201"
-                  endingLineNumber = "201"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C0D90062-E064-411E-B333-D29AD55C076F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"

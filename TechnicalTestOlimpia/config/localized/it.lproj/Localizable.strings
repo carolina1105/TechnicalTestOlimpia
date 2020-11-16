@@ -15,6 +15,7 @@
     "TEXT_ALERT_SUCCESS" = "Buone notizie";
     "TEXT_ALERT_FAILURE" = "Avvertimento";
     "TEXT_REQUEST_SUCCESS" = "La tua richiesta è stata inviata con successo";
+    "TEXT_REGISTER" = "Registrare";
 /* Global Text View */
 
 /* User Register View */
@@ -24,6 +25,7 @@
     "TEXT_CITY" = "Città";
     "TEXT_COUNTRY" = "Nazione";
     "TEXT_CELLPHONE" = "Cellulare";
+    "TEXT_REGISTER_USER" = "Registra utente";
 /* User Register View */
 
 /* Location */
@@ -61,4 +63,5 @@
 /* Options Panel Photo View */
     "TEXT_TAKE_PHOTO" = "Fare Foto";
     "TEXT_SELECT_PHOTO" = "Seleziona Foto";
+    "TEXT_SELECT_AVATAR" = "Seleziona avatar";
 /* Options Panel Photo View */

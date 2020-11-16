@@ -20,6 +20,7 @@ struct GalleryView: UIViewControllerRepresentable {
         let gallery = GalleryViewController(cropType: self.cropType)
         gallery.delegate = self
         let navigation = UINavigationController(rootViewController: gallery)
+        navigation.navigationBar.backgroundColor = UIColor.primary
         return navigation
     }
 

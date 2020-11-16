@@ -15,6 +15,7 @@
     "TEXT_ALERT_SUCCESS" = "Buena noticia";
     "TEXT_ALERT_FAILURE" = "Advertencia";
     "TEXT_REQUEST_SUCCESS" = "Tú solicitud ha sido enviada satisfactoriamente";
+    "TEXT_REGISTER" = "Registrar";
 /* Global Text View */
 
 /* User Register View */
@@ -24,6 +25,7 @@
     "TEXT_CITY" = "Ciudad";
     "TEXT_COUNTRY" = "País";
     "TEXT_CELLPHONE" = "Teléfono Celular";
+    "TEXT_REGISTER_USER" = "Registrar Usuario";
 /* User Register View */
 
 /* Location */
@@ -61,4 +63,5 @@
 /* Options Panel Photo View */
     "TEXT_TAKE_PHOTO" = "Tomar foto";
     "TEXT_SELECT_PHOTO" = "Seleccionar foto";
+    "TEXT_SELECT_AVATAR" = "Select avatar";
 /* Options Panel Photo View */

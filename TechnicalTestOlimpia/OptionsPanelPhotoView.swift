@@ -16,9 +16,7 @@ struct OptionsPanelPhotoView: View {
     
     @Binding var showCapture: Bool
     @State var isOpacity: Bool = false
-    var isRestore: Bool = false
     var title: String
-    var didRestore: (() -> Void)?
     var didPhoto: (UIImagePickerController.SourceType) -> Void
     
     var body: some View {
@@ -74,24 +72,6 @@ struct OptionsPanelPhotoView: View {
                     Spacer()
                 }
                 .padding()
-                if isRestore {
-                    Button(action: {
-                        self.didRestore?()
-                        self.animateOut()
-                    }) {
-                        Image(systemName: "arrow.counterclockwise")
-                            .foregroundColor(Color.primaryText)
-                            .font(name: FontConfig.default.robotoBold,
-                                  size: FontSizeConfig.default.text)
-                            .padding(.trailing, padding)
-                        Text("TEXT_SELECT_DEFAULT".localized)
-                            .foregroundColor(Color.primaryText)
-                            .font(name: FontConfig.default.robotoRegular,
-                                  size: FontSizeConfig.default.text)
-                        Spacer()
-                    }
-                    .padding()
-                }
             }.padding(.bottom)
             .background(Color.backgroundDialog)
             .cornerRadius(radius: corner, corners: [.topRight, .topLeft])
@@ -118,7 +98,6 @@ struct OptionsPanelPhotoView: View {
 struct CapturePhotoView_Previews: PreviewProvider {
     static var previews: some View {
         OptionsPanelPhotoView(showCapture: .constant(false),
-                              isRestore: true,
                               title: "Example") { type in
         }
     }

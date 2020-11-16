@@ -44,12 +44,15 @@ struct UserDataView: View {
                     SectionView(title: "TEXT_CITY".localized, username: self.$userVM.city)
                     SectionView(title: "TEXT_COUNTRY".localized, username: self.$userVM.country)
                     SectionView(title: "TEXT_CELLPHONE".localized, username: self.$userVM.cellphone)
-                    SectionPhoto(title: "TEXT_SELECT_PHOTO".localized, didCaptureImage: {_ in 
+                    SectionPhoto(title: "TEXT_SELECT_PHOTO".localized, didCaptureImage: { 
                         self.animateInPhoto()
+                    })
+                    SectionLocation(title: "TEXT_LOCATION_TITLE".localized, didCaptureLocation: {
+                        self.showLocation()
                     })
 
                 }
-                BtnHudPrimary(text: "TEXT_NEXT".localized) {  btn in
+                BtnHudPrimary(text: "TEXT_REGISTER".localized) {  btn in
 //                    self.showLocation()
                     print("user. \(self.userVM.user)")
                     btn.stopAnimation(animationStyle: .normal)
@@ -79,7 +82,7 @@ struct UserDataView: View {
                     Image(systemName: "line.horizontal.3")
                         .font(.system(size: self.iconSize))
                         .foregroundColor(Color.nSecondaryText)
-                    Text("Pokémon")
+                    Text("TEXT_REGISTER_USER".localized)
                         .titleFont(color: Color.nSecondaryText)
                 }.offset(x: self.offsetXBar)
             })
@@ -89,10 +92,7 @@ struct UserDataView: View {
         }
         if self.$showCapture.wrappedValue {
             OptionsPanelPhotoView(showCapture: self.$showCapture,
-                                  isRestore: false,
-                                  title: "cambiar foto",
-                                  didRestore: {
-                                  }) { sourceType in
+                                  title: "TEXT_SELECT_AVATAR".localized) { sourceType in
                 if sourceType == .camera {
                     self.showCamera()
                 } else {
@@ -138,8 +138,7 @@ struct UserDataView: View {
     
     private func showLocation() {
         segue.present(view: LocationView { location in
-//            self.conversationVM.location(location,
-//                                         self.quote)
+
         },
         style: .automatic)
     }
@@ -171,8 +170,13 @@ struct SectionView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title + ":")
-                .titleFont()
+            HStack {
+                Text("*")
+                    .titleFont(color: username != "" ? Color.fourth : Color.third, 
+                               decoration: .bold)
+                Text(title + ":")
+                    .titleFont()
+            }
             TextField(title, text: $username)
                 .textFieldStyle(CustomTextFieldStyle(status: .default))
         }
@@ -183,17 +187,23 @@ struct SectionView: View {
 
 struct SectionPhoto: View {
     var title: String
-    var didCaptureImage: (Bool) -> Void
+    var didCaptureImage: () -> Void
     private let sizeIconSmall: CGFloat = 25
     private let paddingBottonIcon:CGFloat = 35
-    
+    @ObservedObject var userVM = UserDataViewModel.shared
+
     var body: some View {
         HStack {
-            Text(title + ":")
-                .titleFont()
+            HStack {
+                Text("*")
+                    .titleFont(color: userVM.avatar != "" ? Color.fourth : Color.third, 
+                               decoration: .bold)
+                Text(title + ":")
+                    .titleFont()
+            }
             Spacer()
             Button(action: {
-                self.didCaptureImage(false)
+                self.didCaptureImage()
             }) {
                 Image(systemName: "photo.fill")
                     .font(name: FontConfig.default.robotoBold,
@@ -206,6 +216,36 @@ struct SectionPhoto: View {
     }
 }
 
+struct SectionLocation: View {
+    var title: String
+    var didCaptureLocation: () -> Void
+    private let sizeIconSmall: CGFloat = 25
+    private let paddingBottonIcon:CGFloat = 35
+    @ObservedObject var userVM = UserDataViewModel.shared
+
+    var body: some View {
+        HStack {
+            HStack {
+                Text("*")
+                    .titleFont(color: userVM.geolocation != "" ? Color.fourth : Color.third, 
+                               decoration: .bold)
+                Text(title + ":")
+                    .titleFont()
+            }
+            Spacer()
+            Button(action: {
+                self.didCaptureLocation()
+            }) {
+                Image(systemName: "location.circle.fill")
+                    .font(name: FontConfig.default.robotoBold,
+                          size: sizeIconSmall)
+                    .foregroundColor(Color.tint)
+            }
+        }
+        .padding(.horizontal)
+        .padding(.vertical, 10)
+    }
+}
 struct NavigationContent: View {
     private let appearanceTag: Int = 1
     private let securityTag: Int = 2
