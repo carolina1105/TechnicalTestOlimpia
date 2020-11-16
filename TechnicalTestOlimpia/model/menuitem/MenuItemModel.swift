@@ -28,6 +28,6 @@ struct MenuItemModel: Identifiable, Codable {
 extension MenuItemModel {
     static var mock = MenuItemModel(id: "1",
                                     tag: 1,
-                                    name: "List Pokemons",
+                                    name: "Register User",
                                     icon: "")
 }

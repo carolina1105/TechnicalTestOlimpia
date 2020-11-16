@@ -1,20 +1,19 @@
 /* 
   InfoPlist.strings
-  NapoleoN
+  Olimpia
 
-  Created by Daniel Cano Arbelaez on 27/05/20.
-  Copyright © 2020 Daniel Cano Arbelaez. All rights reserved.
+ //  Created by Laddy Diaz Lamus on 15/11/20.
 */
 
 //Privacy - Media Library Usage Description
-"NSAppleMusicUsageDescription" = "NapoleoN need to use Apple Music to play multimedia attachments.";
+"NSAppleMusicUsageDescription" = "Olimpia need to use Apple Music to play multimedia attachments.";
 //Privacy - Camera Usage Description
-"NSCameraUsageDescription" = "NapoleoN need to use the camera to take pictures and make video calls.";
+"NSCameraUsageDescription" = "Olimpia need to use the camera to take pictures and make video calls.";
 //Privacy - Face ID Usage Description
-"NSFaceIDUsageDescription" = "NapoleoN will use his face to enter NapoleoN Secret Chat.";
+"NSFaceIDUsageDescription" = "Olimpia will use his face to enter Olimpia Secret Chat.";
 //Privacy - Location When In Use Usage Description
-"NSLocationWhenInUseUsageDescription" = "NapoleoN needs location access to share.";
+"NSLocationWhenInUseUsageDescription" = "Olimpia needs location access to share.";
 //Privacy - Microphone Usage Description
-"NSMicrophoneUsageDescription" = "NapoleoN needs access to the microphone to make and receive phone calls and record voice messages.";
+"NSMicrophoneUsageDescription" = "Olimpia needs access to the microphone to make and receive phone calls and record voice messages.";
 //Privacy - Photo Library Usage Description
-"NSPhotoLibraryUsageDescription" = "NapoleoN will let you choose which photos from your mailing library.";
+"NSPhotoLibraryUsageDescription" = "Olimpia will let you choose which photos from your mailing library.";

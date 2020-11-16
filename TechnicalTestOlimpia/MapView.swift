@@ -97,7 +97,7 @@ class MapDelegate: NSObject, MKMapViewDelegate {
                                             width: sendSize,
                                             height: sendSize))
         button.setImage(icon, for: .normal)
-        button.tintColor = UIColor.tint
+        button.tintColor = UIColor.secondaryText
         return button
     }
     

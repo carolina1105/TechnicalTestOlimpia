@@ -122,7 +122,8 @@ struct LocationView: View {
                                         }
                                         VStack(spacing: .zero) {
                                             HStack {
-                                                Text(self.locationVM.address).foregroundColor(Color.primaryText)
+                                                Text(self.locationVM.address)
+                                                    .foregroundColor(Color.secondaryText)
                                                 Button(action: {
                                                     guard let location = self.locationVM.location else {
                                                         return
@@ -133,7 +134,7 @@ struct LocationView: View {
                                                 }) {
                                                     ZStack {
                                                         Circle()
-                                                            .foregroundColor(Color.primaryText)
+                                                            .foregroundColor(Color.tint)
                                                             .frame(width: geometry.size.width * self.sideWidth,
                                                                    height: self.btnHeight)
                                                         Image(systemName: "paperplane.fill")
@@ -141,6 +142,7 @@ struct LocationView: View {
                                                                             anchor: .center)
                                                             .font(name: FontConfig.default.robotoRegular,
                                                                   size: FontSizeConfig.default.title)
+                                                            .foregroundColor(Color.secondaryText)
                                                     }
                                                 }
                                                 .foregroundColor(Color.primary)
@@ -252,7 +254,7 @@ struct SearchAddress: View {
                     self.onCancel()
                 }
                 .frame(width: locationVM.cancelWidth)
-                .foregroundColor(Color.primaryText)
+                .foregroundColor(Color.secondaryText)
                 .transition(.asymmetric(insertion: .move(edge: .trailing),
                                         removal: .move(edge: .trailing)))
             }

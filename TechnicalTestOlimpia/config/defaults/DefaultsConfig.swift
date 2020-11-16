@@ -15,12 +15,12 @@ class DefaultsConfig {
     let keyFirebaseId            : String = "FirebaseId"
     
     let keyTheme                 : String = "Theme"
-    let keyLanguage              : String = "NapoleonLanguage"
+    let keyLanguage              : String = "OlimpiaLanguage"
     let keyThemeType                    : String = "ThemeType"
 
     let keyUser                  : String = "user"
     let keyToken                 : String = "token"
-    let keyNapoleon              : String = "Napoleon"
+    let keyOlimpia               : String = "Olimpia"
     let keyGoogleToken           : String = "GoogleToken"
     let keyIsLoginGoogle         : String = "IsLoginGoogle"
     let keyDateRefresh           : String = "DateRefresh"

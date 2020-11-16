@@ -40,7 +40,7 @@ class UserRepository {
                 self.defaults.set(value: "", for: self.defaults.keyIsLoginGoogle)
 //                self.defaults.token = TokenModel.toModel(dto: userRes!)
 //                self.defaults.user = UserModel.toModel(dto: userRes!)
-//                KeychainConfig.shared.set(value: user.password!, for: self.defaults.keyNapoleon)
+//                KeychainConfig.shared.set(value: user.password!, for: self.defaults.keyOlimpia)
 //                self.setLastRefreshTokenTime()
                 success()
                 return

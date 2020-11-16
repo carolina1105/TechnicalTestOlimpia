@@ -138,7 +138,7 @@ struct UserDataView: View {
     
     private func showLocation() {
         segue.present(view: LocationView { location in
-
+            self.userVM.geolocation = location.urlString
         },
         style: .automatic)
     }

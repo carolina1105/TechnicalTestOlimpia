@@ -8,8 +8,8 @@
 import SwiftUI
 
 enum ThemeType: String {
-    case systemOne = "Light Napoleon"
-    case systemTwo = "Dark Napoleon"
+    case systemOne = "Light Olimpia"
+    case systemTwo = "Dark Olimpia"
     case darkOne = "Black Gold Alloy"
     case darkTwo = "Cold Ocean"
     case darkThree = "Camouflage"
@@ -25,7 +25,6 @@ class ThemeViewModel: ObservableObject {
     var segue = SegueConfig.shared
     
     @Published var background: Color = Color.background
-//    @Published var secondaryText: Color = Color.secondaryText
     @Published var primaryText: Color = Color.primaryText
     @Published var secondary: Color = Color.secondary
     @Published var fourth: Color = Color.fourth
@@ -39,15 +38,10 @@ class ThemeViewModel: ObservableObject {
     }
     
     func reload() {
-        
-//        ColorConfig.destroy()
-//        UIColorConfig.destroy()
-//        PinViewModel.destroy()
         background = Color.background
         primaryText = Color.primaryText
         secondary = Color.secondary
         fourth = Color.fourth
         UITableView.appearance().backgroundColor = UIColor.background
     }
-    
 }
