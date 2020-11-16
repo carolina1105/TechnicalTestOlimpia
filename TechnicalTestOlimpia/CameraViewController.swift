@@ -87,6 +87,14 @@ extension CameraViewController {
         configure()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        guard let navigation = self.navigationController else {
+            return
+        }
+        navigation.navigationBar.isHidden = true
+    }
+    
     func configure() {
         controller.prepare { error in
             if let error = error {

@@ -38,6 +38,8 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<true/>
 	</dict>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) necesita usar la Cámara para tomar fotos y hacer videollamadas.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchScreen</key>

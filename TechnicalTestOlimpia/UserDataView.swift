@@ -92,7 +92,6 @@ struct UserDataView: View {
                                   isRestore: false,
                                   title: "cambiar foto",
                                   didRestore: {
-//                                    self.profileVM.showAlertRestoreImage()
                                   }) { sourceType in
                 if sourceType == .camera {
                     self.showCamera()
@@ -118,24 +117,9 @@ struct UserDataView: View {
         
     }
     func showGallery() {
-        segue.present(view: GalleryView(didSendPhoto: { text, test in
-            
-        }))
-//        self.segue.present(view: GalleryView(message: "",
-//                                             didSendPhoto: { photo, message in
-//                                                self.conversationVM.photo(base64: photo,
-//                                                                          message: message,
-//                                                                          quote: self.quote)
-//                                                self.messageToAttachment = String.empty
-//                                                self.quoteClear()
-//                                             }, didSendVideo: { (video, message) in
-//                                                self.conversationVM.video(path: video,
-//                                                                          message: message,
-//                                                                          quote: self.quote)
-//                                                self.messageToAttachment = String.empty
-//                                                self.quoteClear()
-//                                             }), style: .automatic)
-        
+        segue.present(view: GalleryView(didSendPhoto: { photo, test in
+            self.userVM.avatar = photo
+        }))        
     }
     
     func animateInPhoto() {
@@ -147,19 +131,8 @@ struct UserDataView: View {
         }
     }
     func showCamera() {
-        segue.navigation(view: CameraView(
-                                          didSendPhoto: { photo, message in
-//                                            self.conversationVM.photo(base64: photo,
-//                                                                      message: message,
-//                                                                      quote: self.quote)
-//                                            self.messageToAttachment = String.empty
-//                                            self.quoteClear()
-//                                          }) { video, message in
-//            self.conversationVM.video(path: video,
-//                                      message: message,
-//                                      quote: self.quote)
-//            self.messageToAttachment = String.empty
-//            self.quoteClear()
+        segue.present(view: CameraView(didSendPhoto: { photo, message in
+                                            self.userVM.avatar = photo
         }))
     }
     
