@@ -20,10 +20,10 @@ struct UserDataView: View {
             VStack{
                 data(title: "TEXT_NAME".localized, username: username)
                 data(title: "TEXT_IDENTIFICATION_CARD".localized, username: username)
-                data(title: "TEXT_ALERT_ADDRESS".localized, username: username)
-                data(title: "TEXT_ALERT_CITY".localized, username: username)
-                data(title: "TEXT_ALERT_COUNTRY".localized, username: username)
-                data(title: "TEXT_ALERT_CELL_PHONE".localized, username: username)
+                data(title: "TEXT_ADDRESS".localized, username: username)
+                data(title: "TEXT_CITY".localized, username: username)
+                data(title: "TEXT_COUNTRY".localized, username: username)
+                data(title: "TEXT_CELLPHONE".localized, username: username)
                 BtnHudPrimary(text: "TEXT_CREATE_ACCOUNT".localized) {  btn in
                     self.showLocation()
                     btn.stopAnimation(animationStyle: .normal)

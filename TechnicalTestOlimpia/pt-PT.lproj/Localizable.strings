@@ -1,0 +1,523 @@
+/* 
+  Localizable.strings
+  NapoleoN
+
+  Created by Napoleon Systems S.A.S on 23/10/19.
+  Copyright © 2019 Napoleon Systems S.A.S. All rights reserved.
+*/
+
+/* Global Text View */
+    // No Translatable
+    "TEXT_NAPOLEON_CHAT" = "NapoleoN Chat";
+    // No Translatable
+    "TEXT_CLOSE" = "Fechar";
+    "TEXT_NAME" = "Nome";
+    "TEXT_CANCEL" = "Cancelar";
+    "TEXT_ACCEPT" = "Aceitar";
+    "TEXT_CONTINUE" = "Continuar";
+    "TEXT_NEXT" = "Próximo";
+    "TEXT_ALERT_SUCCESS" = "Boa notícia";
+    "TEXT_ALERT_FAILURE" = "Advertência";
+    "TEXT_REQUEST_SUCCESS" = "Sua solicitação foi enviada com sucesso";
+    "TEXT_SHARE" = "Compartilhar";
+    "TEXT_SHARE_ANDROID" = "Compartilhar com Android";
+    "TEXT_TITLE_FAIL" = "Algo deu errado";
+    "TEXT_SEARCH" = "Buscar";
+    "TEXT_ENABLE" = "Ativar";
+    "TEXT_EDIT" = "Editar";
+    "TEXT_DATE_JUST_NOW" = "Agora";
+    "TEXT_DATE_MINUTES_AGO" = "%@ mins";
+    "TEXT_DATE_MINUTE_AGO" = "%@ min";
+    "TEXT_DATE_TODAY" = "Hoje";
+    "TEXT_DATE_YESTERDAY" = "Ontem";
+    "TEXT_ERROR_CONNECTION" = "Não há conexão com a internet. Tente novamente mais tarde";
+    "TEXT_ADD_CONTACT" = "Adicionar contato";
+    "TEXT_REGISTER" = "Registre-se";
+    "TEXT_ANSWER" = "Resposta";
+    "TEXT_FINISH" = "Concluir";
+    "TEXT_POWERED_BY" = "Powered by";
+    "TEXT_SENT" = "Enviado";
+    "TEXT_ADD" = "Adicionar";
+    "TEXT_TITLE_INFO" = "Importante";
+    "TEXT_INFORMATION" = "INFORMAÇÃO";
+    "TEXT_REJECT" = "Recusar";
+    "TEXT_CONFIRM" = "Confirmar";
+    "TEXT_DELETE" = "Eliminar";
+    "TEXT_BLOCK" = "Bloquear";
+    "TEXT_COPY" = "Copiar";
+    "TEXT_OPEN_SETTINGS" = "Abrir configurações";
+    "TEXT_DAYS" = "dias";
+    "TEXT_PREFIX_DAYS" = "d";
+    "TEXT_YESTERDAY" = "Ontem";
+    "TEXT_MONDAY" = "Segunda-feira";
+    "TEXT_TUESDAY" = "Terça-feira";
+    "TEXT_WEDNESDAY" = "Quarta-feira";
+    "TEXT_THURSDAY" = "Quinta-feira";
+    "TEXT_FRIFAY" = "Sexta-feira";
+    "TEXT_SATURDAY" = "Sábado";
+    "TEXT_SUNDAY" = "Domingo";
+    "TEXT_APPLY" = "Aplicar";
+    "TEXT_CURRENT" = "Atual";
+    "TEXT_UPDATE_TITLE" = "Uma nova versão de NapoleoN está disponível";
+    "TEXT_UPDATE_MESSAGE" = "Version %@ já está disponível na App Store.";
+    "TEXT_UPDATE" = "Atualizar";
+    "TEXT_YES" = "Sim";
+    "TEXT_NO" = "Não";
+    "TEXT_PERMISSION_TITLE" = "Permissões";
+    "TEXT_PERMISSION_CAMERA" = "NapoleoN quer acessar a câmera de modo que você pode tirar fotos e gravar vídeos";
+    "TEXT_PERMISSION_GALLERY" = "NapoleoN deseja acessar a galeria de fotos para que você possa fazer upload de fotos e vídeos";
+    "TEXT_GO_TO_CONFIGURATION" = "vá para as Configurações";
+/* Global Text View */
+
+/* Landing View */
+    "TEXT_WELCOME" = "Bem-vindo";
+    "TEXT_CREATE_ACCOUNT" = "Criar Conta";
+    "TEXT_RECOVER_ACCOUNT" = "Recuperar Conta";
+    "TEXT_SELECT_LANGUAGE" = "Selecionar Idioma";
+/* Landing View */
+
+/* language View */
+    "FRENCH_TITLE" = "Français (fr)";
+    "GERMAN_TITLE" = "Deutsch (de)";
+    "PORTUGUESE_TITLE" = "Português (pt)";
+    "ITALIAN_TITLE" = "Italiano (it)";
+    "ENGLISH_TITLE" = "English (en)";
+    "SPANISH_TITLE" = "Español (es)";
+/* language View */
+
+/* Generate Code View */
+    "TEXT_WELCOME_NAPOLEON" = "Bem-vindo a NapoleoN Chat";
+    "TEXT_DESCRIPTION_WELCOME_NAPOLEON" = "Nossa prioridade é a sua PRIVACIDADE. Se você deseja continuar, receberá um código para ativar seu registro.";
+    "TEXT_SEND_REGISTER_CODE" = "Enviar código de registro";
+    "TEXT_GENERATE_CODE_FAIL_TITLE" = "Falha ao gerar Código";
+/* Generate Code View */
+
+/* Register Code View */
+    "TEXT_INSERT_CODE" = "Digite o Código";
+    "TEXT_NUMBER_ATTEMPTS" = "Número de tentativas: ";
+    "TEXT_MESSAGE_CODE_FAIL" = "O código não corresponde, tente novamente";
+    "TEXT_NEW_ATTEMPT_IN" = "Nova tentativa em: ";
+    "TEXT_NEW_ATTEMPT_SECONDS" = " segundos";
+    "TEXT_DONT_RECEIVE_CODE" = "Não recebi o código";
+    "TEXT_VERIFICATE_CODE_FAIL_TITLE" = "Falha ao Verificar o Código";
+    "TEXT_REAPPLY_CODE" = "Tente novamente em: ";
+    "TEXT_CHECK_PUSH" = "Nota: Verifique as notificações por push";
+/* Register Code View */
+
+/* Register User View */
+    "TEXT_NICKNAME" = "Apelido*";
+    "TEXT_DISPLAY_NAME" = "Mostrar nome (Opcional)";
+    "TEXT_TERMS_AND_CONDITIONS_LINE_ONE" = "Ao clicar em %@, você aceitará o";
+    "TEXT_TERMS_AND_CONDITIONS_LINE_TWO" = "termos, condições e políticas de privacidade.";
+    "TEXT_CREATE_ACCOUNT_FAIL_TITLE" = "Falha ao criar conta";
+    "TEXT_NICKNAME_REQUIRED" = "O apelido é obrigatório.";
+    "TEXT_NICKNAME_MUST_BEGIN_WITH_A_LETTER" = "O Apelido deve começar com uma letra.";
+    "TEXT_NICKNAME_NOT_CONTAIN_ENOUGH_CHAR_AND_NUMBER" = "O Apelido deve conter no mínimo 3 caracteres e 1 número.";
+    "TEXT_NICKNAME_EXCEED_LIMIT_CHAR" = "O Apelido não deve exceder 20 caracteres.";
+    "TEXT_NICKNAME_MUST_NOT_CONTAIN_ESPECIAL_CHAR" = "O Apelido não deve conter espaços em branco ou caracteres especiais.";
+    "TEXT_NICKNAME_CONTAIN_AT_LEAST_ONE_LETTER" = "O Apelido deve conter no uma letra menos.";
+    "TEXT_NICKNAME_CONTAIN_AT_LEAST_ONE_NUMBER" = "O Apelido deve conter pelo menos 1 número.";
+    "TEXT_NAME_NOT_CONTAIN_ENOUGH_CHAR" = "O nome deve conter no mínimo 2 caracteres.";
+    "TEXT_NAME_EXCEED_LIMIT_CHAR" = "O Nome não deve exceder 24 caracteres.";
+    "TEXT_NAME_MUST_NOT_CONTAIN_ESPECIAL_CHAR" = "O Nome não deve conter caracteres especiais.";
+    "TEXT_NICKNAME_NOT_AVAILABLE" = "Apelido não disponível";
+/* Register User View */
+
+/* Access Pin View */
+    "TEXT_ACCESS_PIN_TITLE" = "Pin de Acesso";
+    "TEXT_ACCESS_PIN" = "Pino de acesso";
+    "TEXT_RESET_ACCESS_PIN_TITLE" = "Redefinir pino de acesso";
+    "TEXT_CONFIRM_ACCESS_PIN" = "Confirmar pin de acesso";
+    "TEXT_ACCESS_PIN_NOT_CONTAINS_FOUR_NUMBERS" = "A senha de acesso deve ter 4 números.";
+    "TEXT_ACCESS_PIN_FAIL_MESSAGE" = "O pino de acesso não corresponde.";
+/* Access Pin View */
+
+/* Edit Pin View */
+    "TEXT_OLD_ACCESS_PIN" = "Pino de acesso antigo";
+    "TEXT_NEW_ACCESS_PIN" = "Novo pino de acesso";
+    "TEXT_CONFIRM_NEW_ACCESS_PIN" = "Confirmar o acesso new pino";
+    "TEXT_ACCESS_PIN_NOT_CORRESPOND" = "Pino de acesso não aplicável";
+    "TEXT_ACCESS_PIN_UPDATED_SUCCESSFULLY" = "PIN de acesso atualizado com sucesso";
+/* Edit Pin View */
+
+/* Menu View */
+    "TEXT_REPEAT_TUTORIAL" = "Tutorial Repeat";
+    "TEXT_MESSAGE_DIALOG_REPEAT_TUTORIAL" = "Você quer dar uma visão geral das principais funções do aplicativo?";
+    "TEXT_PROFILE_TITLE" = "Perfil";
+    "TEXT_SECURITY_SETTINGS_TITLE" = "Configurações de segurança";
+    "TEXT_APPEARANCE_SETTINGS_TITLE" = "Configurações de aparência";
+    "TEXT_INVITE_SOMEONE_TITLE" = "Convide Alguém";
+    "TEXT_HELP_TITLE" = "Ajuda";
+    "TEXT_SUBSCRIPTION_TITLE" = "Assinatura";
+/* Menu View */
+
+/* Conversation View */
+    "TEXT_SECTION_CONVERSATIONS" = "Minhas conversas";
+    "TEXT_SECTION_SEE_MORE" = "Ver todos";
+    "TEXT_NEW_CONTACT" = "Você tem um novo CONTATO. Eu digo olá!";
+    "TEXT_CALL" = "Ligar";
+    "TEXT_VIDEO_CALL" = "Chamada de vídeo";
+    "TEXT_SCHEDULE" = "Horário";
+    "TEXT_SEE_CONTACT" = "Ver contato";
+    "TEXT_BLOCK_CONTACT" = "Bloquear contato";
+    "TEXT_MUTE_CONVERSATION" = "Silenciar conversa";
+    "TEXT_DELETE_MESSAGES" = "Excluir mensagens";
+    "TEXT_DELETE_CONVERSATION" = "Excluir conversa";
+    "TEXT_WRITE_MESSAGE" = "NN Mensagem";
+    "TEXT_SLIDE_TO_CANCEL" = "deslize para cancelar";
+    "TEXT_SELECTED" = "Selecionado";
+    "TEXT_DELETE_MESSAGE_FOR_ME" = "Excluir para mim";
+    "TEXT_DELETE_MESSAGE_FOR_ALL" = "Excluir para todos";
+    "TEXT_DELETE_MESSAGE" = "Excluir mensagens?";
+    "TEXT_SCREENSHOT" = "acabou de tirar uma captura de tela";
+    "TEXT_YOUR" = "Você";
+    "TEXT_UNREAD_MESSAGES" = "Mensagens não lidas";
+    "TEXT_TITLE_ATTACH_DOC" = "Arquivo anexo";
+    "TEXT_ATTCH_DOC_NOT_ALLOWED" = "O arquivo selecionado não é permitido";
+    "TEXT_ATTCH_DOC_SIZE_EXCEED" = "O ficheiro seleccionado, excede o tamanho permitido (100 MB)";
+    "TEXT_TO_RECORD" = "Segure para gravar";
+/* Conversation View */
+
+/* Menu Delete View */
+    "TEXT_DELETE_UNREAD" = "Excluir não lidas";
+    "TEXT_DELETE_NOT_RECEIVED" = "Excluir não recebeu";
+    "TEXT_DELETE_FAILED" = "Excluir sem sucesso";
+/* Menu Delete View */
+
+/* Menu Attachment View */
+    "TEXT_GALLERY_ATTACHMENT" = "Galeria";
+    "TEXT_CAMERA_ATTACHMENT" = "Câmera";
+    "TEXT_LOCATION_ATTACHMENT" = "Localização";
+    "TEXT_AUDIO_ATTACHMENT" = "Áudio";
+    "TEXT_GIF_ATTACHMENT" = "GIF";
+    "TEXT_DOCUMENT_ATTACHMENT" = "Documento";
+    "TEXT_ATTACHMENT" = "Anexo";
+    "TEXT_PHOTO" = "Foto";
+    "TEXT_VIDEO_NOTE" = "Vídeo";
+/* Menu Attachment View */
+
+/* Profile View */
+    "TEXT_STATUS_TITLE" = "Status";
+    "TEXT_BLOCKED_CONTACT" = "Contatos bloqueados";
+    "TEXT_ALERT_COVER_DEFAULT" = "Tem certeza de que deseja restaurar a imagem padrão?";
+    "TEXT_LOGOUT_TITLE" = "FECHAR SESSÃO";
+    "TEXT_LOGOUT_DESC" = "Tem certeza? Se você fechar esta sessão sem primeiro ter preenchido o formulário de recuperação de conta, você perde o seu apelido e contatos atuais.";
+    "TEXT_YES_IM_SURE" = "Tenho certeza";
+    "TEXT_NO_LOGOUT" = "Não fechar sessão";
+    "TEXT_CLOSED_SESSION" = "Sessão fechada";
+    "TEXT_CLOSED_SESSION_DESC" = "Sua sessão foi encerrada com sucesso. Esperamos que volte em breve.";
+/* Profile View */
+
+/* Status View */
+    "TEXT_STATUS_PLACEHOLDER" = "Digite o status";
+    "TEXT_STATUS_SELECT_TITLE" = "Selecione um estado";
+    "TEXT_STATUS_AVAILABLE" = "Avalible";
+    "TEXT_STATUS_BUSY" = "Ocupado";
+    "TEXT_STATUS_IN_MEETING" = "Em reunião";
+    "TEXT_STATUS_ONLY_MESSAGES" = "Somente mensagens";
+    "TEXT_STATUS_SLEEPING" = "adormecido";
+    "TEXT_STATUS_ONLY_EMERGENCY" = "Somente Emergência";
+    "TEXT_STATUS_LIMIT" = "São permitidos 4 estados personalizados. Exclua um salvo anteriormente para adicionar um novo.";
+/* Status View */
+
+/* Blocked Contact View */
+    "TEXT_BLOCKED_CONTACT_INFO" = "Os contatos nesta lista não poderão se comunicar com você ou acessar seu perfil.";
+    "TEXT_NO_CONTACTS" = "Você não tem contatos bloqueados";
+/* Blocked Contact View */
+
+/* Unblock Contact View */
+    "TEXT_UNLOCK_CONTACT" = "Desbloquear contato";
+    "TEXT_REMOVE_UNLOCK_CONTACT" = "Remover bloco de contato";
+/* Unblock Contact View */
+
+/* Options Panel Photo View */
+    "TEXT_CHANGE_PROFILE_PHOTO" = "Alterar Foto do Perfil";
+    "TEXT_CHANGE_COVER_PHOTO" = "Alterar foto da capa";
+    "TEXT_TAKE_PHOTO" = "Tirar Fotos";
+    "TEXT_SELECT_PHOTO" = "Selecionar Foto";
+    "TEXT_SELECT_DEFAULT" = "Por padrão";
+/* Options Panel Photo View */
+
+/* Appearance Settings View */
+    "TEXT_COLOR_SCHEME" = "Seleção de tema";
+    "TEXT_USER_DISPLAY_FORMAT" = "Formato do nome de usuário";
+    "TEXT_LANGUAGE" = "Língua";
+    "TEXT_CONVERSATION_BACKGROUND" = "Contexto da conversa";
+/* Appearance Settings View */
+
+/* Theme View */
+    "TEXT_SECTION_SYSTEM_THEMES" = "APARÊNCIA DO SISTEMA";
+    "TEXT_SECTION_DARK_THEMES" = "TEMAS ESCUROS";
+    "TEXT_SECTION_LIGHT_THEMES" = "TEMAS LEVES";
+    "TEXT_SYSTEM_ONE_THEME" = "Tema Claro";
+    "TEXT_SYSTEM_TWO_THEME" = "Tema Escuro";
+    "TEXT_DARK_ONE_THEME" = "Tema Alto Contraste";
+    "TEXT_DARK_TWO_THEME" = "Tema Uva";
+    "TEXT_DARK_THREE_THEME" = "Tema Rosado";
+    "TEXT_LIGH_ONE_THEME" = "Tema Oceano";
+    "TEXT_LIGH_TWO_THEME" = "Tema Forestal";
+    "TEXT_LIGH_THREE_THEME" = "Tema Militar";
+/* Theme View */
+
+/* Username Format View */
+    "TEXT_NAME_AND_NICKNAME" = "Nome e Apelido";
+    "TEXT_ONLY_NAME" = "Apenas Exclusivo";
+    "TEXT_ONLY_NICKNAME" = "Apenas Apelido";
+/* Username Format View */
+
+/* Time Format View */
+    "TEXT_TIME_FORMAT" = "Formato da Hora";
+    "TEXT_TWENTYFOUR_HOURS" = "24 horas";
+    "TEXT_TWELVE_HOURS" = "12 horas";
+/* Time Format View */
+
+/* Security Settings View */
+    "TEXT_CONVERSATION" = "Conversação";
+    "TEXT_ACCESS" = "ACESSO";
+    "TEXT_GENERAL" = "GERAL";
+    "TEXT_MASK_APP" = "Mascarar o aplicativo";
+    "TEXT_DEFAULT_MESSAGE_SELF_DESTRUCT_TIME" = "Tempo de autodestruição da mensagem padrão";
+    "TEXT_MESSAGE_SELF_DESTRUCT_TIME_NOT_SENT" = "Tempo de autodestruição e não lidas falhou";
+    "TEXT_SECURITY" = "SEGURANÇA";
+    "TEXT_EDIT_ACCESS_PIN_TITLE" = "Acesso Pin";
+    "TEXT_EDIT_ACCESS_PIN" = "Editar o seu acesso pin";
+    "TEXT_TIME_TO_REQUEST_ACCESS_PIN" = "Hora da solicitação do pino de acesso";
+    "TEXT_ACCOUNT_RECOVERY" = "Recuperação de conta";
+    "TEXT_ALLOW_DOWNLOAD_ATTACHMENTS" = "Permitir anexos de download enviados";
+/* Security Settings View */
+
+/* Message Destruction View */
+    "TEXT_MESSAGE_SELF_DESTRUCTION" = "Auto-destruição da mensagem";
+    "TEXT_INFO_MESSAGE_SELF_DESTRUCTION" = "As mensagens enviadas serão excluídas após o tempo selecionado,";
+    "TEXT_INFO_CONVERSATION_MESSAGE_SELF_DESTRUCTION" = "As mensagens enviadas nesta conversa serão excluídas após o tempo selecionado.";
+    "TEXT_SEEN_OR_HEARD_SELF_DESTRUCTION" = " depois de terem sido visto ou ouvido.";
+    "TEXT_INFO_MESSAGE_AUTODESTRUCTION_TIME_FAILED_MESSAGES" = "mensagens enviadas em conversas que não atingem o seu destino ou não são lidos, serão apagados após o tempo selecionado.";
+    "TEXT_FIVE_SECONDS" = "5 segundos";
+    "TEXT_FIFTEEN_SECONDS" = "15 segundos";
+    "TEXT_FIVE_MINUTES" = "5 minutos";
+    "TEXT_TEN_MINUTES" = "10 minutos";
+    "TEXT_FIFTEEN_MINUTES" = "15 minutos";
+    "TEXT_THIRTY_MINUTES" = "30 minutos";
+    "TEXT_TWELVE_HOURS" = "12 horas";
+    "TEXT_SIX_HOURS" = "6 horas";
+    "TEXT_TWENTY_FOUR_HOURS" = "24 horas";
+    "TEXT_SEVEN_DAYS" = "7 dias";
+/* Message Destruction View */
+
+/* Pin Locked Time View */
+    "TEXT_DESC_PIN_LOCKED_TIME" = "O acesso PIN é solicitado após decorrer o tempo seleccionado eo aplicativo é fechado ou em segundo plano.";
+    "TEXT_IMMEDIATELY" = "Imediatamente";
+    "TEXT_TEN_SECONDS" = "10 segundos";
+    "TEXT_THIRTY_SECONDS" = "30 segundos";
+    "TEXT_ONE_MINUTE" = "1 minuto";
+    "TEXT_ONE_HOUR" = "1 hora";
+    "TEXT_ONE_DAY" = "1 dia";
+    "TEXT_ONE_NEVER" = "Nunca";
+/* Pin Locked Time View */
+
+/* Invite Someone View */
+    "TEXT_INFO_INVITE_SOMEONE" = "Proteja a PRIVACIDADE de seus amigos. Convide-os para usar o NapoleoN Chat.";
+    "TEXT_SHARE_LINK" = "Convido você a baixar este super app! https://napoleon.chat/app";
+/* Invite Someone View */
+
+/* Help View */
+    "TEXT_FREQUENT_QUESTIONS" = "Perguntas frequentes";
+    "TEXT_CONTACT_US" = "Contate-Nos";
+    "TEXT_TERMS_AND_CONDITIONS" = "Termos e Condições";
+    "TEXT_ABOUT" = "Sobre";
+/* Help View */
+
+/* Contacts View */
+    "TEXT_MY_CONTACTS" = "Meus contatos";
+    "TEXT_VIEW_PROFILE" = "Ver Perfil";
+    "TEXT_DELETE_CONTACT" = "Eliminar contacto";
+    "TEXT_WANT_DELETE_CONTACT" = "Deseja excluir este contato?";
+    "TEXT_WANT_BLOCK_CONTACT" = "Deseja bloquear este contato?";
+    "TEXT_WANT_BLOCK_CONTACT_DELETE_CONVERSATION" = "Tem certeza de que deseja bloquear este contato? sua conversa será excluída";
+    "TEXT_REMOVE_BLOCK_CONTACT" = "Retire a fechadura";
+    "TEXT_WANT_REMOVE_BLOCK_CONTACT" = "Deseja remover o bloqueio deste contato?";
+    "TEXT_ADD_CONTACTS" = "Adicionar contatos";
+    "TEXT_ADD_NEW_CONTACT" = "Adicionar novo contato";
+    "TEXT_SEARCH_CONTACT" = "Pesquisar meus contatos";
+    "TEXT_YUO_DONT_HAVE_THIS_CONTACT_IN_YOUR_AGENDA" = "Você não tem esse contato em sua agenda";
+/* Contacts View */
+
+/* Contact View */
+    "TEXT_CONTACT" = "CONTATO";
+    "TEXT_RESET_CONTACT" = "Redefinir contato";
+    "TEXT_WANT_RESET_CONTACT" = "Tem certeza de que deseja restabelecer o contato?";
+    "TEXT_ALERT_NICKNAME" = "O apelido deve conter no mínimo 5 e no máximo 20 caracteres";
+    "TEXT_ALERT_NAME" = "O nome deve conter no mínimo 3 e no máximo 50 caracteres";
+    "TEXT_WANT_DELETE_CONVERSATION" = "Tem certeza de que deseja excluir esta conversa?";
+    "TEXT_WANT_MUTE_CONVERSATION" = "Tem certeza de que deseja silenciar esta conversa?";
+    "TEXT_NAME_INVALID" = "Nome inválido";
+    "TEXT_NICKNAME_INVALID" = "Apelido inválido";
+/* Contact View */
+
+/* Contact Us View */
+    "TEXT_REPORT_PROBLEM" = "Relatar um problema";
+    "TEXT_COMMENTARY" = "Comente";
+    "TEXT_SUGGESTION" = "Sugestão";
+    "TEXT_DESCRIPTION" = "Envie-nos um comentário, uma sugestão ou um relatório de erro sobre o aplicativo. Para nós, é muito importante conhecer a sua opinião. Cada relatório enviado ajuda a melhorar o aplicativo.";
+    "TEXT_MESSAGE" = "Mensagem";
+    "TEXT_SEND" = "Enviar";
+    "TEXT_PQRS_CREATED" = "Sua solicitação foi enviada com sucesso";
+    "TEXT_MIN_TWENTY_CHAR" = "menos 20 caracteres";
+/* Contact Us View */
+
+/* Pin View */
+    "TEXT_PIN_ENTER" = "Digite o PIN";
+    "TEXT_PIN_FAIL" = "O PIN não corresponde, tente novamente";
+    "TEXT_PIN_BLOCKED_ACCESS" = "Acesso bloqueado";
+    "TEXT_PIN_UNLOCKING_TIME" = "Desbloquear tempo";
+    "TEXT_PIN_UNLOCKING_NOTE" = "Você excedeu o número de tentativas permitidas, por isso bloqueamos sua conta por um tempo.";
+/* Pin View */
+
+/* Register Recovery Account */
+    "TEXT_RECOVERY_ACCOUNT_FALSE" = "Você não possui informações registradas para recuperação de conta";
+    "TEXT_RECOVERY_ACCOUNT_OK" = "Já se inscreveram para obter informações de recuperação de conta no clique em Editar para dar as informações acima são descartadas.";
+    "TEXT_COUNT_QUESTIONS" = "Questões de segurança";
+    "TEXT_SECURITY_QUESTIONS" = "Escolha uma pergunta";
+    "TEXT_ADD_QUESTION" = "Adicionar outra pergunta";
+    "TEXT_INFO_REGISTER_ACCOUNT" = "Na conta de informações de recuperação de gravação / edição, você deve adicionar um mínimo de 3 e um máximo de 5 perguntas, que será mostrado no momento de recuperar a sua conta";
+    "TEXT_TITLE_REGISTER_QUESTIONS" = "A opção Recuperar conta ajudará você a recuperar seu apelido, contatos e preferências. Lembre-se de que uma resposta difícil é a chave para sua privacidade e segurança";
+    "TEXT_DESCRIPTION_CANCEL" = "Nenhuma informação será registrada para recuperação da conta. Tem certeza de que deseja sair?";
+    "TEXT_SUCCESSFULL_MESSAGE" = "Informações registradas com sucesso";
+    "TEXT_SELECT_QUESTION" = "Você deve selecionar uma pergunta";
+    "TEXT_FINALICE_REGISTER" = "Tem certeza de que deseja sair? O aplicativo salvará as respostas anteriores nas configurações de recuperação da sua conta";
+/* Register Recovery Account */
+
+/* Recovery Account */
+    "TEXT_BTN_RECOVERY" = "Recuperar";
+    "TEXT_STEP" = "Etapa";
+    "TEXT_DESCRIPTION_RECOVERY" = "Recupera rapidamente e com segurança seus contatos responder corretamente questões de segurança.";
+    "TEXT_RECOVERY_SUCCESS" = "Sua conta foi recuperada. Obrigado por recuperar sua conta, agora você pode conversar com privacidade e segurança com seus contatos";
+    "TEXT_DESCRIPTION_ENTER_PASSWORD" = "Você está a um passo de recuperar sua conta. Digite o número da senha de recuperação da sua conta";
+    "TEXT_PLACEHOLDER_PASSWORD" = "Digite sua senha";
+    "TEXT_PASSWORD_INCORRECT" = "A senha digitada está incorreta";
+    "TEXT_ANSWERS_INCORRECT" = "As respostas inseridas estão incorretas";
+    "TEXT_DESCRIPTION_VALIDATE_OLD_ANSWERS" = "Você está mais perto de recuperar sua conta. Ajude-nos a confirmar sua identidade. Responda às seguintes perguntas de segurança corretamente";
+    "TEXT_TITLE_BLOCK_ATTACKER" = "Ataque conta";
+    "TEXT_BLOCK_ATTACKER" = "Eles estão a tentar recuperar a sua conta, não é?";
+    "TEXT_TITTLE_BLOCK_ATTEMPTS" = "Trancado";
+    "TEXT_DESCRIPTION_BLOCK_ATTEMPTS" = "Ele foi bloqueado por exceder o número de tentativas de recuperação representam";
+    "TEXT_OLD_PASSWORD_EXCEED_LIMIT_CHAR" = "A senha não deve exceder 40 caracteres.";
+    "TEXT_ANSWER_EXCEED_LIMIT_CHAR" = "A resposta não deve exceder 40 caracteres.";
+/* Recovery Account */
+
+/* Friendship */
+    "TEXT_SEARCH_FRIENDS" = "Pesquisa por apelido";
+    "TEXT_FRIEND_REQUESTS" = "Pedidos de amizade";
+    "TEXT_SEARCH_NO_RESULT" = "A pesquisa não produziu resultado";
+    "TEXT_SEARCH_RESULT" = "Resultados da Pesquisa";
+    "TEXT_FRIEND_REQUESTS_RECEIVED" = "Pedidos de amizade recebidos";
+    "TEXT_FRIEND_REQUESTS_SENT" = "Pedidos de amizade enviados";
+/* Friendship */
+
+/* Mute Contact */
+    "TEXT_TITLE_MUTE_NOTIFICATION" = "Silenciar notificação";
+    "TEXT_MUTE_NOTIFICATION" = "Durante a próxima vez, as notificações serão silenciadas para esse contato";
+    "TEXT_EIGHT_HOUR" = "8 horas";
+    "TEXT_ONE_YEAR" = "1 ano";
+    "TEXT_UNMUTED_CONVERSATION" = "Conversa sem som";
+/* Mute Contact */
+
+/* Subscription */
+    "TEXT_TRIAL_PERIOD" = "Período de provas";
+    "TEXT_REMAINING_DAY" = " - %d restantes dias";
+    "TEXT_CURRENT_SUBSCRIPTION" = "Assinatura atual";
+    "TEXT_SUBSCRIPTION_EXPIRATION" = "Expiração da assinatura";
+    "TEXT_GET_SUBSCRIPTION" = "Obter uma assinatura";
+    "TEXT_SUBSCRIPTION_TYPE" = "Tipo de Assinatura";
+    "TEXT_PAYMENT_METHOD" = "Método de pago";
+    "TEXT_SELECT_SUBSCRIPTION" = "Selecione um tipo de assinatura";
+    "TEXT_GET" = "Adquirir";
+    "TEXT_PAYMENT_PROCESS" = "Processo de Pagamento";
+    "TEXT_EXPIRED" = "Expirado";
+    "TEXT_EXPIRED_SUBSCRIPTION" = "A assinatura expirou";
+    "TEXT_FREE_TRIAL_EXPIRED" = "O tempo de teste expirou";
+    "TEXT_SUBSCRIPTION_MONTHLY" = "Por mês";
+    "TEXT_SUBSCRIPTION_SEMIANNUAL" = "Semestral";
+    "TEXT_SUBSCRIPTION_YEARLY" = "Anual";
+    "TEXT_SUBSCRIPTION_EXPIRED_DAY" = "Assinatura expirada. Lembre-se de renovar a assinatura dentro de um período máximo de %d dias.";
+    "TEXT_SUBSCRIPTION_EXPIRED" = "Sua Assinatura expirada, você só vai receber mensagens.";
+    "TEXT_DESCRIPTION_PAYPAL" = "Em seguida, você será redirecionado para um portal de pagamento, este portal é externo ao NapoleoN Chat, portanto, não possui as mesmas características de nosso aplicativo e você deve aceitar os termos e condições estipulados para seu uso. Não nos responsabilizamos pelo tratamento dos dados fornecidos no módulo de pagamento.";
+    "TEXT_YOU_WANT_TO_UNSUBSCRIBE_TITLE" = "Você deseja cancelar a inscrição?";
+    "TEXT_YOU_WANT_TO_UNSUBSCRIBE_DESC" = "Se você cancelar essa assinatura, você só pode usar o chat para NN DD-MM-AA (que termina subscrição data place)";
+    "TEXT_NOT_FOR_NOW" = "Não por agora";
+    "TEXT_YES_CANCEL" = "SIM, o Anular";
+    "TEXT_UNSUBSCRIBED_TITLE" = "Unsubscribed";
+    "TEXT_UNSUBSCRIBED_DESC" = "Lembre-se que você pode se inscrever para um outro pacote que se adapte às suas necessidades a qualquer momento.";
+    "TEXT_FINALIZE" = "Finalizar";
+    "TEXT_PURCHASE" = "Comprar";
+    "TEXT_SUBSCRIPTION_SUCCESSFULLY" = "Assinatura com sucesso.";
+    "TEXT_SUBSCRIPTION_ERROR" = "Ocorreu um erro. Tente mais tarde.";
+    "TEXT_OPERATION_CANCELLED" = "Operação cancelada.";
+/* Subscription */
+
+/* Empty State */
+    "TEXT_EMPTYSTATE_CONVERSATION_TITLE" = "Une discussion commencer";
+    "TEXT_EMPTYSTATE_CONVERSATION" = "Comunicar com seus contatos de uma forma segura e privada.";
+    "TEXT_EMPTYSTATE_FRIEND_TITLE" = "Pedidos de amizade";
+    "TEXT_EMPTYSTATE_FRIEND" = "Você não tem pedidos de amizade pendentes.";
+    "TEXT_EMPTYSTATE_CONTACTS" = "Não tiver contactos adicionados";
+    "TEXT_EMPTYSTATE_SEARCH_FRIENDS_TITLE" = "Procurar seus amigos pelo apelido e comunicar";
+/* Empty State */
+
+/* Location */
+    "TEXT_LOCATION_TITLE" = "Selecionar local";
+    "TEXT_SEARCH_NAME_OR_ADDRESS" = "Pesquise por nome ou endereço";
+    "TEXT_PERMISSION_LOCATION_DESC" = "Você pode ativar esta permissão no aplicativo Configurações do iOS.";
+/* Location */
+
+/* Conversation Background */
+    "TEXT_EXAMPLE_MESSAGE_ONE" = "Olá meu amigo, como tem passado?";
+    "TEXT_EXAMPLE_MESSAGE_TWO" = "Bem e você? como está sua família?";
+    "TEXT_SET_CONVERSATION_BACKGROUND" = "Pôster";
+/* Conversation Background */
+
+/* Call */
+    "TEXT_HANG_UP_CALL" = "Desligar";
+    "TEXT_ANSWER_CALL" = "Resposta";
+    "TEXT_CHANGE_TO_VIDEO_CALL" = "Alterar";
+    "TEXT_STATUS_RINING" = "Toque...";
+    "TEXT_INCOMING_CALL_TITLE" = "Chamada recebida";
+    "TEXT_INCOMING_VIDEO_CALL_TITLE" = "Chamada de vídeo";
+    "TEXT_ENCRYPTING_CALL" = "Chamada criptografar";
+    "TEXT_ENCRYPTING_VIDEOCALL" = "Criptografar chamada de vídeo";
+    "TEXT_STATUS_CONECTING" = "Conectando...";
+    "TEXT_STATUS_CLOSING" = "Encerramento...";
+    "TEXT_STATUS_INIT" = "Começar";
+    "TEXT_STATUS_DISCONNECTED" = "Desconectado";
+    "TEXT_STATUS_FAILURE" = "Falha";
+    "TEXT_CONTACT_IS_BUSY" = "é ocupado";
+    "TEXT_FINISHED_CALL" = "chamar concluída";
+    "TEXT_CONTACT_WANT_CHANGE_TO_VIDEO_CALL" = "Solicitando para mudar para videochamada";
+    "TEXT_WOULD_YOU_LIKE_SWICHT_TO_VIDEO_CALL" = "Deseja mudar para videochamadas?";
+    "TEXT_CONTACT_TURN_OFF_CAMERA" = "desligou a câmera";
+    "TEXT_CALL_ANONYMOUS_CONTACT_NAME" = "Usuário NapoleoN";
+    "TEXT_MISSED_VOICE_CALL_AT" = "Chamada perdida";
+    "TEXT_MISSED_VIDEO_CALL_AT" = "Chamada de vídeo perdida";
+    "TEXT_ENCRYPTED_CALL" = "Chamada criptografada";
+    "TEXT_ENCRYPTED_VIDEO_CALL" = "Chamada de vídeo criptografado";
+    "TEXT_CALL_NOT_INTERNET_CONNECTION" = "Não foi possível fazer a ligação. Verifique sua conexão com a internet e tente novamente.";
+    "TEXT_VIDEO_CALL_NOT_INTERNET_CONNECTION" = "Não foi possível fazer a chamada de vídeo. Verifique sua conexão com a internet e tente novamente.";
+    "TEXT_VIDEO_CALL_REJECTED" = "A solicitação de videochamada foi rejeitada";
+/* Call */
+
+/* Show Case */
+    "TEXT_ADD_CONTACTS_TITTLE" = "ADICIONAR CONTATOS";
+    "TEXT_ADD_CONTACTS_DESCRIPTION" = "Aqui você pode adicionar contatos, procurando por eles por seu apelido.";
+    "TEXT_AGENDA_TITLE" = "CRONOGRAMA";
+    "TEXT_AGENDA_DESCRIPTION" = "Aqui você encontra os contatos que adicionou no NapoleoN Chat.";
+    "TEXT_STATES_TITLE" = "ESTADO";
+    "TEXT_STATES_DESCRIPTION" = "Diga a seus contatos como você se encontra com uma frase.";
+    "TEXT_MENU_TITLE" = "MENU PRINCIPAL";
+    "TEXT_MENU_DESCRIPTION" = "Damos-lhe diferentes opções para modificar a conta ao seu gosto.";
+    "TEXT_YOUR_PRIVACY_IS_OUR_PRIORITY_TITLE" = "CONFIGURAÇÕES DE SEGURANÇA";
+    "TEXT_YOUR_PRIVACY_IS_OUR_PRIORITY_DESCRIPTION" = "Mantenha seu cofre informações, definindo a segurança da sua conta.";
+    "TEXT_NAPOLEON_DOES_NOT_SAVE_YOUR_DATA_TITLE" = "RECUPERAÇÃO DE CONTA";
+    "TEXT_NAPOLEON_DOES_NOT_SAVE_YOUR_DATA_DESCRIPTION" = "Se você quiser manter o seu mesmo usuário, as questões de segurança completas.";
+    "TEXT_SELFDESTRUCTION_OF_MESSAGES_TITLE" = "AUTO-DESTRUIÇÃO DE MENSAGENS";
+    "TEXT_SELFDESTRUCTION_OF_MESSAGES_DESCRIPTION" = "Personalize a duração das suas mensagens.";
+/* Show Case */

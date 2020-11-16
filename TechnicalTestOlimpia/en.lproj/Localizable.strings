@@ -1,0 +1,523 @@
+/* 
+  Localizable.strings
+  NapoleoN
+
+  Created by Napoleon Systems S.A.S on 23/10/19.
+  Copyright © 2019 Napoleon Systems S.A.S. All rights reserved.
+*/
+
+/* Global Text View */
+    // No Translatable
+    "TEXT_NAPOLEON_CHAT" = "NapoleoN Chat";
+    // No Translatable
+    "TEXT_CLOSE" = "Close";
+    "TEXT_NAME" = "Name";
+    "TEXT_CANCEL" = "Cancel";
+    "TEXT_ACCEPT" = "Accept";
+    "TEXT_CONTINUE" = "Continue";
+    "TEXT_NEXT" = "Next";
+    "TEXT_ALERT_SUCCESS" = "Good news";
+    "TEXT_ALERT_FAILURE" = "Warning";
+    "TEXT_REQUEST_SUCCESS" = "Your request has been sent successfully";
+    "TEXT_SHARE" = "Share";
+    "TEXT_SHARE_ANDROID" = "Share with Android";
+    "TEXT_TITLE_FAIL" = "Something went wrong";
+    "TEXT_SEARCH" = "Search";
+    "TEXT_ENABLE" = "Enable";
+    "TEXT_EDIT" = "Edit";
+    "TEXT_DATE_JUST_NOW" = "Now";
+    "TEXT_DATE_MINUTES_AGO" = "%@ mins";
+    "TEXT_DATE_MINUTE_AGO" = "%@ min";
+    "TEXT_DATE_TODAY" = "Today";
+    "TEXT_DATE_YESTERDAY" = "Yesterday";
+    "TEXT_ERROR_CONNECTION" = "There is no internet connection. Try again later";
+    "TEXT_ADD_CONTACT" = "Add contact";
+    "TEXT_REGISTER" = "Register";
+    "TEXT_ANSWER" = "Answer";
+    "TEXT_FINISH" = "Finish";
+    "TEXT_POWERED_BY" = "Powered by";
+    "TEXT_SENT" = "Sent";
+    "TEXT_ADD" = "Add";
+    "TEXT_TITLE_INFO" = "Important";
+    "TEXT_INFORMATION" = "INFORMATION";
+    "TEXT_REJECT" = "Reject";
+    "TEXT_CONFIRM" = "Confirm";
+    "TEXT_DELETE" = "Delete";
+    "TEXT_BLOCK" = "Block";
+    "TEXT_COPY" = "Copy";
+    "TEXT_OPEN_SETTINGS" = "Open settings";
+    "TEXT_DAYS" = "days";
+    "TEXT_PREFIX_DAYS" = "d";
+    "TEXT_YESTERDAY" = "Yesterday";
+    "TEXT_MONDAY" = "Monday";
+    "TEXT_TUESDAY" = "Tuesday";
+    "TEXT_WEDNESDAY" = "Wednesday";
+    "TEXT_THURSDAY" = "Thursday";
+    "TEXT_FRIFAY" = "Friday";
+    "TEXT_SATURDAY" = "Saturday";
+    "TEXT_SUNDAY" = "Sunday";
+    "TEXT_APPLY" = "Apply";
+    "TEXT_CURRENT" = "Current";
+    "TEXT_UPDATE_TITLE" = "A new version of NapoleoN is available";
+    "TEXT_UPDATE_MESSAGE" = "Version %@ is now available on the App Store.";
+    "TEXT_UPDATE" = "To update";
+    "TEXT_YES" = "Yes";
+    "TEXT_NO" = "No";
+    "TEXT_PERMISSION_TITLE" = "Permissions";
+    "TEXT_PERMISSION_CAMERA" = "NapoleoN wants to access the camera so you can take pictures and record videos";
+    "TEXT_PERMISSION_GALLERY" = "NapoleoN wants to access the photo gallery so you can upload photos and videos";
+    "TEXT_GO_TO_CONFIGURATION" = "go to Settings";
+/* Global Text View */
+
+/* Landing View */
+    "TEXT_WELCOME" = "Welcome";
+    "TEXT_CREATE_ACCOUNT" = "Create Account";
+    "TEXT_RECOVER_ACCOUNT" = "Recover account";
+    "TEXT_SELECT_LANGUAGE" = "Select Language";
+/* Landing View */
+
+/* language View */
+    "FRENCH_TITLE" = "Français (fr)";
+    "GERMAN_TITLE" = "Deutsch (de)";
+    "PORTUGUESE_TITLE" = "Português (pt)";
+    "ITALIAN_TITLE" = "Italiano (it)";
+    "ENGLISH_TITLE" = "English (en)";
+    "SPANISH_TITLE" = "Español (es)";
+/* language View */
+
+/* Generate Code View */
+    "TEXT_WELCOME_NAPOLEON" = "Welcome to NapoleoN Chat";
+    "TEXT_DESCRIPTION_WELCOME_NAPOLEON" = "Our priority is your PRIVACY, If you wish to continue you will receive a code to activate your registration.";
+    "TEXT_SEND_REGISTER_CODE" = "Send registration code";
+    "TEXT_GENERATE_CODE_FAIL_TITLE" = "Failed to generate code";
+/* Generate Code View */
+
+/* Register Code View */
+    "TEXT_INSERT_CODE" = "Enter Code";
+    "TEXT_NUMBER_ATTEMPTS" = "Number of attempts: ";
+    "TEXT_MESSAGE_CODE_FAIL" = "The code doesn't match, try again";
+    "TEXT_NEW_ATTEMPT_IN" = "New attempt in: ";
+    "TEXT_NEW_ATTEMPT_SECONDS" = " seconds";
+    "TEXT_DONT_RECEIVE_CODE" = "I did not receive the code";
+    "TEXT_VERIFICATE_CODE_FAIL_TITLE" = "Failed to Verify Code";
+    "TEXT_REAPPLY_CODE" = "Try again in: ";
+    "TEXT_CHECK_PUSH" = "Note: Check Push notifications";
+/* Register Code View */
+
+/* Register User View */
+    "TEXT_NICKNAME" = "Nickname*";
+    "TEXT_DISPLAY_NAME" = "Display Name (Optional)";
+    "TEXT_TERMS_AND_CONDITIONS_LINE_ONE" = "By clicking %@, you will accept the";
+    "TEXT_TERMS_AND_CONDITIONS_LINE_TWO" = "terms, conditions and privacy policies.";
+    "TEXT_CREATE_ACCOUNT_FAIL_TITLE" = "Failed to Create Account";
+    "TEXT_NICKNAME_REQUIRED" = "The nickname is mandatory.";
+    "TEXT_NICKNAME_MUST_BEGIN_WITH_A_LETTER" = "The Nickname must begin with a letter.";
+    "TEXT_NICKNAME_NOT_CONTAIN_ENOUGH_CHAR_AND_NUMBER" = "The Nickname must contain a minimum of 3 characters and 1 number.";
+    "TEXT_NICKNAME_EXCEED_LIMIT_CHAR" = "The nickname must not exceed 20 characters.";
+    "TEXT_NICKNAME_MUST_NOT_CONTAIN_ESPECIAL_CHAR" = "The Nickname must not contain any blanks or special characters.";
+    "TEXT_NICKNAME_CONTAIN_AT_LEAST_ONE_NUMBER" = "The Nickname must contain a minimum of 1 number.";
+    "TEXT_NICKNAME_CONTAIN_AT_LEAST_ONE_LETTER" = "The Nickname must contain at the least one letter.";
+    "TEXT_NAME_NOT_CONTAIN_ENOUGH_CHAR" = "Name must contain a minimum of 2 characters.";
+    "TEXT_NAME_EXCEED_LIMIT_CHAR" = "Name must not exceed 24 characters.";
+    "TEXT_NAME_MUST_NOT_CONTAIN_ESPECIAL_CHAR" = "The Name must not contain special characters.";
+    "TEXT_NICKNAME_NOT_AVAILABLE" = "Nickname not available";
+/* Register User View */
+
+/* Access Pin View */
+    "TEXT_ACCESS_PIN_TITLE" = "Access Pin";
+    "TEXT_ACCESS_PIN" = "Access pin";
+    "TEXT_RESET_ACCESS_PIN_TITLE" = "Reset Access Pin";
+    "TEXT_CONFIRM_ACCESS_PIN" = "Confirm access pin";
+    "TEXT_ACCESS_PIN_NOT_CONTAINS_FOUR_NUMBERS" = "The access pin must contain 4 numbers.";
+    "TEXT_ACCESS_PIN_FAIL_MESSAGE" = "The access pin does not match.";
+/* Access Pin View */
+
+/* Edit Pin View */
+    "TEXT_OLD_ACCESS_PIN" = "Old access pin";
+    "TEXT_NEW_ACCESS_PIN" = "New access pin";
+    "TEXT_CONFIRM_NEW_ACCESS_PIN" = "Confirm New pin access";
+    "TEXT_ACCESS_PIN_NOT_CORRESPOND" = "Access Pin Not Applicable";
+    "TEXT_ACCESS_PIN_UPDATED_SUCCESSFULLY" = "Access pin updated successfully";
+/* Edit Pin View */
+
+/* Menu View */
+    "TEXT_REPEAT_TUTORIAL" = "Repeat Tutorial";
+    "TEXT_MESSAGE_DIALOG_REPEAT_TUTORIAL" = "You want to give an overview of the main functions of the app?";
+    "TEXT_PROFILE_TITLE" = "Profile";
+    "TEXT_SECURITY_SETTINGS_TITLE" = "Security Settings";
+    "TEXT_APPEARANCE_SETTINGS_TITLE" = "Appearance Settings";
+    "TEXT_INVITE_SOMEONE_TITLE" = "Invite Someone";
+    "TEXT_HELP_TITLE" = "Help";
+    "TEXT_SUBSCRIPTION_TITLE" = "Subscription";
+/* Menu View */
+
+/* Conversation View */
+    "TEXT_SECTION_CONVERSATIONS" = "My conversations";
+    "TEXT_SECTION_SEE_MORE" = "See all";
+    "TEXT_NEW_CONTACT" = "You have a new CONTACT. Say Hello!";
+    "TEXT_CALL" = "Call";
+    "TEXT_VIDEO_CALL" = "Video call";
+    "TEXT_SCHEDULE" = "Schedule";
+    "TEXT_SEE_CONTACT" = "See contact";
+    "TEXT_BLOCK_CONTACT" = "Block contact";
+    "TEXT_MUTE_CONVERSATION" = "Mute conversation";
+    "TEXT_DELETE_MESSAGES" = "Delete messages";
+    "TEXT_DELETE_CONVERSATION" = "Delete conversation";
+    "TEXT_WRITE_MESSAGE" = "NN Message";
+    "TEXT_SLIDE_TO_CANCEL" = "slide to cancel";
+    "TEXT_SELECTED" = "Selected";
+    "TEXT_DELETE_MESSAGE_FOR_ME" = "Delete for me";
+    "TEXT_DELETE_MESSAGE_FOR_ALL" = "Delete for all";
+    "TEXT_DELETE_MESSAGE" = "Delete messages?";
+    "TEXT_SCREENSHOT" = "just took a screenshot";
+    "TEXT_YOUR" = "Your";
+    "TEXT_UNREAD_MESSAGES" = "Unread Messages";
+    "TEXT_TITLE_ATTACH_DOC" = "Attached file";
+    "TEXT_ATTCH_DOC_NOT_ALLOWED" = "The selected file is not allowed";
+    "TEXT_ATTCH_DOC_SIZE_EXCEED" = "The selected file exceeds the allowed size (%@MB)";
+    "TEXT_TO_RECORD" = "Hold to record";
+/* Conversation View */
+
+/* Menu Delete View */
+    "TEXT_DELETE_UNREAD" = "Delete unread";
+    "TEXT_DELETE_NOT_RECEIVED" = "Delete not received";
+    "TEXT_DELETE_FAILED" = "Delete failed";
+/* Menu Delete View */
+
+/* Menu Attachment View */
+    "TEXT_GALLERY_ATTACHMENT" = "Gallery";
+    "TEXT_CAMERA_ATTACHMENT" = "Camera";
+    "TEXT_LOCATION_ATTACHMENT" = "Location";
+    "TEXT_AUDIO_ATTACHMENT" = "Audio";
+    "TEXT_GIF_ATTACHMENT" = "GIF";
+    "TEXT_DOCUMENT_ATTACHMENT" = "Document";
+    "TEXT_ATTACHMENT" = "Attachment";
+    "TEXT_PHOTO" = "Photo";
+    "TEXT_VIDEO_NOTE" = "Video";
+/* Menu Attachment View */
+
+/* Profile View */
+    "TEXT_STATUS_TITLE" = "Status";
+    "TEXT_BLOCKED_CONTACT" = "Blocked contacts";
+    "TEXT_ALERT_COVER_DEFAULT" = "Are you sure you want to restore the default image?";
+    "TEXT_LOGOUT_TITLE" = "LOGOUT";
+    "TEXT_LOGOUT_DESC" = "Are you sure? If you close this session without first having completed the account recovery form, you lose your nickname and current contacts.";
+    "TEXT_YES_IM_SURE" = "Yes, I'm sure";
+    "TEXT_NO_LOGOUT" = "Do not sign out";
+    "TEXT_CLOSED_SESSION" = "Closed session";
+    "TEXT_CLOSED_SESSION_DESC" = "Your session has been successfully closed. We hope you come back soon.";
+/* Profile View */
+
+/* Status View */
+    "TEXT_STATUS_PLACEHOLDER" = "Inser Status";
+    "TEXT_STATUS_SELECT_TITLE" = "Select a state";
+    "TEXT_STATUS_AVAILABLE" = "Avalible";
+    "TEXT_STATUS_BUSY" = "Busy";
+    "TEXT_STATUS_IN_MEETING" = "In Meeting";
+    "TEXT_STATUS_ONLY_MESSAGES" = "Only Messages";
+    "TEXT_STATUS_SLEEPING" = "Sleeping";
+    "TEXT_STATUS_ONLY_EMERGENCY" = "Only Emergency";
+    "TEXT_STATUS_LIMIT" = "4 custom states are allowed. Delete a previously saved one to add a new one.";
+/* Status View */
+
+/* Blocked Contact View */
+    "TEXT_BLOCKED_CONTACT_INFO" = "The contacts in this list will not be able to communicate with you or access your profile.";
+    "TEXT_NO_CONTACTS" = "You have no blocked contacts";
+/* Blocked Contact View */
+
+/* Unblock Contact View */
+    "TEXT_UNLOCK_CONTACT" = "Unblock contact";
+    "TEXT_REMOVE_UNLOCK_CONTACT" = "Remove contact block";
+/* Unblock Contact View */
+
+/* Options Panel Photo View */
+    "TEXT_CHANGE_PROFILE_PHOTO" = "Change Profile Photo";
+    "TEXT_CHANGE_COVER_PHOTO" = "Change Cover Photo";
+    "TEXT_TAKE_PHOTO" = "Take Photo";
+    "TEXT_SELECT_PHOTO" = "Select Photo";
+    "TEXT_SELECT_DEFAULT" = "Default";
+/* Options Panel Photo View */
+
+/* Appearance Settings View */
+    "TEXT_COLOR_SCHEME" = "Theme selection";
+    "TEXT_USER_DISPLAY_FORMAT" = "Username format";
+    "TEXT_LANGUAGE" = "Language";
+    "TEXT_CONVERSATION_BACKGROUND" = "Conversation background";
+/* Appearance Settings View */
+
+/* Theme View */
+    "TEXT_SECTION_SYSTEM_THEMES" = "SYSTEM THEMES";
+    "TEXT_SECTION_DARK_THEMES" = "DARK THEMES";
+    "TEXT_SECTION_LIGHT_THEMES" = "LIGHT THEMES";
+    "TEXT_SYSTEM_ONE_THEME" = "Light Theme";
+    "TEXT_SYSTEM_TWO_THEME" = "Dark Theme";
+    "TEXT_DARK_ONE_THEME" = "High Contrast Theme";
+    "TEXT_DARK_TWO_THEME" = "Grape Theme";
+    "TEXT_DARK_THREE_THEME" = "Pink Theme";
+    "TEXT_LIGH_ONE_THEME" = "Ocean Theme";
+    "TEXT_LIGH_TWO_THEME" = "Forest Theme";
+    "TEXT_LIGH_THREE_THEME" = "Military Theme";
+/* Theme View */
+
+/* Username Format View */
+    "TEXT_NAME_AND_NICKNAME" = "Name and Nickname";
+    "TEXT_ONLY_NAME" = "Only Name";
+    "TEXT_ONLY_NICKNAME" = "Only Nickname";
+/* Username Format View */
+
+/* Time Format View */
+    "TEXT_TIME_FORMAT" = "Time Format";
+    "TEXT_TWENTYFOUR_HOURS" = "24 hours";
+    "TEXT_TWELVE_HOURS" = "12 hours";
+/* Time Format View */
+
+/* Security Settings View */
+    "TEXT_CONVERSATION" = "CONVERSATION";
+    "TEXT_ACCESS" = "ACCESS";
+    "TEXT_GENERAL" = "GENERAL";
+    "TEXT_MASK_APP" = "Mask the App";
+    "TEXT_DEFAULT_MESSAGE_SELF_DESTRUCT_TIME" = "Default message self-destruct time";
+    "TEXT_MESSAGE_SELF_DESTRUCT_TIME_NOT_SENT" = "Destruct time and unread messages failed";
+    "TEXT_SECURITY" = "SECURITY";
+    "TEXT_EDIT_ACCESS_PIN_TITLE" = "Access Pin";
+    "TEXT_EDIT_ACCESS_PIN" = "Edit your access pin";
+    "TEXT_TIME_TO_REQUEST_ACCESS_PIN" = "Time to request access pin";
+    "TEXT_ACCOUNT_RECOVERY" = "Account recovery";
+    "TEXT_ALLOW_DOWNLOAD_ATTACHMENTS" = "Allow download attachments sent";
+/* Security Settings View */
+
+/* Message Destruction View */
+    "TEXT_MESSAGE_SELF_DESTRUCTION" = "Message Self Destruction";
+    "TEXT_INFO_MESSAGE_SELF_DESTRUCTION" = "The messages sent will be deleted after the selected time,";
+    "TEXT_SEEN_OR_HEARD_SELF_DESTRUCTION" = " once they have been seen or heard.";
+    "TEXT_INFO_CONVERSATION_MESSAGE_SELF_DESTRUCTION" = "Messages sent in this conversation will be deleted after the selected time.";
+    "TEXT_INFO_MESSAGE_AUTODESTRUCTION_TIME_FAILED_MESSAGES" = "Sent messages in conversations that do not reach their destination or are not read, will be deleted after the selected time.";
+    "TEXT_FIVE_SECONDS" = "5 seconds";
+    "TEXT_FIFTEEN_SECONDS" = "15 seconds";
+    "TEXT_FIVE_MINUTES" = "5 minutes";
+    "TEXT_TEN_MINUTES" = "10 minutes";
+    "TEXT_FIFTEEN_MINUTES" = "15 minutes";
+    "TEXT_THIRTY_MINUTES" = "30 minutes";
+    "TEXT_TWELVE_HOURS" = "12 hours";
+    "TEXT_SIX_HOURS" = "6 hours";
+    "TEXT_TWENTY_FOUR_HOURS" = "24 hours";
+    "TEXT_SEVEN_DAYS" = "7 days";
+/* Message Destruction View */
+
+/* Pin Locked Time View */
+    "TEXT_DESC_PIN_LOCKED_TIME" = "The access PIN is requested after the selected time elapsed and the application is closed or in the background.";
+    "TEXT_IMMEDIATELY" = "Immediately";
+    "TEXT_TEN_SECONDS" = "10 seconds";
+    "TEXT_THIRTY_SECONDS" = "30 seconds";
+    "TEXT_ONE_MINUTE" = "1 minute";
+    "TEXT_ONE_HOUR" = "1 hour";
+    "TEXT_ONE_DAY" = "1 day";
+    "TEXT_ONE_NEVER" = "Never";
+/* Pin Locked Time View */
+
+/* Invite Someone View */
+    "TEXT_INFO_INVITE_SOMEONE" = "Protect the PRIVACY of your friends. Invite them to use NapoleoN Chat.";
+    "TEXT_SHARE_LINK" = "I invite you to download this super app! https://napoleon.chat/app";
+/* Invite Someone View */
+
+/* Help View */
+    "TEXT_FREQUENT_QUESTIONS" = "Frequent questions";
+    "TEXT_CONTACT_US" = "Contact us";
+    "TEXT_TERMS_AND_CONDITIONS" = "Terms and conditions";
+    "TEXT_ABOUT" = "About";
+/* Help View */
+
+/* Contacts View */
+    "TEXT_MY_CONTACTS" = "My Contacts";
+    "TEXT_VIEW_PROFILE" = "View profile";
+    "TEXT_DELETE_CONTACT" = "Delete contact";
+    "TEXT_WANT_DELETE_CONTACT" = "Do you want to delete this contact?";
+    "TEXT_WANT_BLOCK_CONTACT" = "Do you want to block this contact?";
+    "TEXT_WANT_BLOCK_CONTACT_DELETE_CONVERSATION" = "Are you sure you want to block this contact? your conversation will be deleted";
+    "TEXT_REMOVE_BLOCK_CONTACT" = "Remove the lock";
+    "TEXT_WANT_REMOVE_BLOCK_CONTACT" = "Do you want to remove the blockage of this contact?";
+    "TEXT_ADD_CONTACTS" = "Add contacts";
+    "TEXT_ADD_NEW_CONTACT" = "Add new contact";
+    "TEXT_SEARCH_CONTACT" = "Search my contacts";
+    "TEXT_YUO_DONT_HAVE_THIS_CONTACT_IN_YOUR_AGENDA" = "You do not have this contact on your agenda";
+/* Contacts View */
+
+/* Contact View */
+    "TEXT_CONTACT" = "CONTACT";
+    "TEXT_RESET_CONTACT" = "Reset Contact";
+    "TEXT_WANT_RESET_CONTACT" = "Are you sure you want to reestablish the contact?";
+    "TEXT_ALERT_NICKNAME" = "Nickname must contain a minimum of 5 and a maximum of 20 characters";
+    "TEXT_ALERT_NAME" = "Name must contain a minimum of 3 and a maximum of 50 characters";
+    "TEXT_WANT_DELETE_CONVERSATION" = "Are you sure you want to delete this conversation?";
+    "TEXT_WANT_MUTE_CONVERSATION" = "Are you sure you want to silence this conversation?";
+    "TEXT_NAME_INVALID" = "Invalid Name";
+    "TEXT_NICKNAME_INVALID" = "Invalid Nickname";
+/* Contact View */
+
+/* Contact Us View */
+    "TEXT_REPORT_PROBLEM" = "Report a problem";
+    "TEXT_COMMENTARY" = "Commentary";
+    "TEXT_SUGGESTION" = "Suggestion";
+    "TEXT_DESCRIPTION" = "Send us a comment, a suggestion or an error report about the application. For us it is very important to know your opinion. Each report sent helps improve the application.";
+    "TEXT_MESSAGE" = "Message";
+    "TEXT_SEND" = "Submit";
+    "TEXT_PQRS_CREATED" = "Your request has been sent successfully";
+    "TEXT_MIN_TWENTY_CHAR" = "minimum 20 characters";
+/* Contact Us View */
+
+/* Pin View */
+    "TEXT_PIN_ENTER" = "Enter PIN";
+    "TEXT_PIN_FAIL" = "PIN does not match, try again";
+    "TEXT_PIN_BLOCKED_ACCESS" = "Access Blocked";
+    "TEXT_PIN_UNLOCKING_TIME" = "Unlock Time";
+    "TEXT_PIN_UNLOCKING_NOTE" = "You exceeded the number of attempts allowed, so we blocked your account for a while.";
+/* Pin View */
+
+/* Register Recovery Account */
+    "TEXT_RECOVERY_ACCOUNT_FALSE" = "You have no registered information for account recovery";
+    "TEXT_RECOVERY_ACCOUNT_OK" = "Already have registered for account recovery information at the click Edit to give the above information is discarded.";
+    "TEXT_COUNT_QUESTIONS" = "Security questions";
+    "TEXT_SECURITY_QUESTIONS" = "Choose a question";
+    "TEXT_ADD_QUESTION" = "Add another question";
+    "TEXT_INFO_REGISTER_ACCOUNT" = "When registering / editing account recovery information, you must add a minimum of 3 and a maximum of 5 questions, which will be displayed when you recover your account";
+    "TEXT_TITLE_REGISTER_QUESTIONS" = "Lost Account option, will help you recover your nickname, contacts and preferences. Remember that a tough response is the key to your privacy and security";
+    "TEXT_DESCRIPTION_CANCEL" = "No information will be recorded for account recovery. Are you sure you want to leave?";
+    "TEXT_SUCCESSFULL_MESSAGE" = "Information registered successfully";
+    "TEXT_SELECT_QUESTION" = "You must select a question";
+    "TEXT_FINALICE_REGISTER" = "Are you sure you want to leave? The application will save the previous answers in your account recovery settings";
+/* Register Recovery Account */
+
+/* Recovery Account */
+    "TEXT_BTN_RECOVERY" = "Recover";
+    "TEXT_STEP" = "Step";
+    "TEXT_DESCRIPTION_RECOVERY" = "Recovers quickly and safely your contacts correctly answering security questions.";
+    "TEXT_RECOVERY_SUCCESS" = "Your account has been recovered. Thank you for recovering your account, now you can chat privately and securely with your contacts";
+    "TEXT_DESCRIPTION_ENTER_PASSWORD" = "You are one step away from recovering your account. Enter your account recovery password number";
+    "TEXT_PLACEHOLDER_PASSWORD" = "Enter your password";
+    "TEXT_PASSWORD_INCORRECT" = "The password entered is incorrect";
+    "TEXT_ANSWERS_INCORRECT" = "The answers entered are incorrect";
+    "TEXT_DESCRIPTION_VALIDATE_OLD_ANSWERS" = "You are closer to recovering your account, please help us confirm your identity. Answer the following security questions correctly";
+    "TEXT_TITLE_BLOCK_ATTACKER" = "Account attack";
+    "TEXT_BLOCK_ATTACKER" = "They are trying to recover your account, are you?";
+    "TEXT_TITTLE_BLOCK_ATTEMPTS" = "Locked";
+    "TEXT_DESCRIPTION_BLOCK_ATTEMPTS" = "It has been blocked for exceeding the number of attempts account recovery";
+    "TEXT_OLD_PASSWORD_EXCEED_LIMIT_CHAR" = "The password must not exceed 40 characters.";
+    "TEXT_ANSWER_EXCEED_LIMIT_CHAR" = "The answer should not exceed 40 characters.";
+/* Recovery Account */
+
+/* Friendship */
+    "TEXT_SEARCH_FRIENDS" = "Search by Nickname";
+    "TEXT_FRIEND_REQUESTS" = "Friend requests";
+    "TEXT_SEARCH_NO_RESULT" = "The search produced no result";
+    "TEXT_SEARCH_RESULT" = "Search results";
+    "TEXT_FRIEND_REQUESTS_RECEIVED" = "Friend Requests Received";
+    "TEXT_FRIEND_REQUESTS_SENT" = "Friend Requests Sent";
+/* Friendship */
+
+/* Mute Contact */
+    "TEXT_TITLE_MUTE_NOTIFICATION" = "Mute notification";
+    "TEXT_MUTE_NOTIFICATION" = "During the next time notifications will be silenced for this contact";
+    "TEXT_EIGHT_HOUR" = "8 horas";
+    "TEXT_ONE_YEAR" = "1 year";
+    "TEXT_UNMUTED_CONVERSATION" = "Conversation not muted";
+/* Mute Contact */
+
+/* Subscription */
+    "TEXT_TRIAL_PERIOD" = "Trial period";
+    "TEXT_REMAINING_DAY" = " - %d remaining days";
+    "TEXT_CURRENT_SUBSCRIPTION" = "Current subscription";
+    "TEXT_SUBSCRIPTION_EXPIRATION" = "Subscription Expiration";
+    "TEXT_GET_SUBSCRIPTION" = "Get a subscription";
+    "TEXT_SUBSCRIPTION_TYPE" = "Subscription Type";
+    "TEXT_PAYMENT_METHOD" = "Payment method";
+    "TEXT_SELECT_SUBSCRIPTION" = "Select a subscription type";
+    "TEXT_GET" = "Get";
+    "TEXT_PAYMENT_PROCESS" = "Payment process";
+    "TEXT_EXPIRED" = "Expired";
+    "TEXT_EXPIRED_SUBSCRIPTION" = "The subscription has expired";
+    "TEXT_FREE_TRIAL_EXPIRED" = "Test time expired";
+    "TEXT_SUBSCRIPTION_MONTHLY" = "Monthly";
+    "TEXT_SUBSCRIPTION_SEMIANNUAL" = "Semiannual";
+    "TEXT_SUBSCRIPTION_YEARLY" = "Yearly";
+    "TEXT_SUBSCRIPTION_EXPIRED_DAY" = "Expired subscription. Remember to renew the subscription within a maximum period of %d days.";
+    "TEXT_SUBSCRIPTION_EXPIRED" = "Your expired Subscription, you will only receive messages.";
+    "TEXT_DESCRIPTION_PAYPAL" = "You will then be redirected to a payment portal, this portal is external to NapoleoN Chat, therefore, it does not have the same characteristics as our application and you must accept the terms and conditions stipulated for the use of it. We are not responsible for the treatment of the data provided in the payment module.";
+    "TEXT_YOU_WANT_TO_UNSUBSCRIBE_TITLE" = "You want to unsubscribe?";
+    "TEXT_YOU_WANT_TO_UNSUBSCRIBE_DESC" = "If you cancel this subscription, you can only use chat to NN DD-MM-AA (ending date place subscription)";
+    "TEXT_NOT_FOR_NOW" = "Not for now";
+    "TEXT_YES_CANCEL" = "YES, Cancel";
+    "TEXT_UNSUBSCRIBED_TITLE" = "Unsubscribed";
+    "TEXT_UNSUBSCRIBED_DESC" = "Remember that you can subscribe to another package that suits your needs at any time.";
+    "TEXT_FINALIZE" = "Finalize";
+    "TEXT_PURCHASE" = "Purchase";
+    "TEXT_SUBSCRIPTION_SUCCESSFULLY" = "Subscription successful.";
+    "TEXT_SUBSCRIPTION_ERROR" = "An error ocurred. Please try again later.";
+    "TEXT_OPERATION_CANCELLED" = "Operation cancelled.";
+/* Subscription */
+
+/* Empty State */
+    "TEXT_EMPTYSTATE_CONVERSATION_TITLE" = "Start a conversation";
+    "TEXT_EMPTYSTATE_CONVERSATION" = "Communicate with your contacts in a secure and private manner.";
+    "TEXT_EMPTYSTATE_FRIEND_TITLE" = "Friend requests";
+    "TEXT_EMPTYSTATE_FRIEND" = "You do not have pending friend requests.";
+    "TEXT_EMPTYSTATE_CONTACTS" = "You have no contacts added";
+    "TEXT_EMPTYSTATE_SEARCH_FRIENDS_TITLE" = "Search for your friends by nickname and communicate";
+/* Empty State */
+
+/* Location */
+    "TEXT_LOCATION_TITLE" = "Select Location";
+    "TEXT_SEARCH_NAME_OR_ADDRESS" = "Search by name or address";
+    "TEXT_PERMISSION_LOCATION_DESC" = "You can enable this permission in the iOS Settings app.";
+/* Location */
+
+/* Conversation Background */
+    "TEXT_EXAMPLE_MESSAGE_ONE" = "Hello my friend, how have you been?";
+    "TEXT_EXAMPLE_MESSAGE_TWO" = "Fine and you? how is your family? ";
+    "TEXT_SET_CONVERSATION_BACKGROUND" = "Set";
+/* Conversation Background */
+
+/* Call */
+    "TEXT_HANG_UP_CALL" = "Hang up";
+    "TEXT_ANSWER_CALL" = "Answer";
+    "TEXT_CHANGE_TO_VIDEO_CALL" = "Change";
+    "TEXT_STATUS_RINING" = "Rining...";
+    "TEXT_INCOMING_CALL_TITLE" = "Incoming call";
+    "TEXT_INCOMING_VIDEO_CALL_TITLE" = "Incoming video call";
+    "TEXT_ENCRYPTING_CALL" = "Encrypting call";
+    "TEXT_ENCRYPTING_VIDEOCALL" = "Encrypting video call";
+    "TEXT_STATUS_CONECTING" = "Connecting...";
+    "TEXT_STATUS_CLOSING" = "Closing...";
+    "TEXT_STATUS_INIT" = "Start";
+    "TEXT_STATUS_DISCONNECTED" = "Disconnected";
+    "TEXT_STATUS_FAILURE" = "Failure";
+    "TEXT_CONTACT_IS_BUSY" = "is busy";
+    "TEXT_FINISHED_CALL" = "Finished call";
+    "TEXT_CONTACT_WANT_CHANGE_TO_VIDEO_CALL" = "Requesting to switch to video call";
+    "TEXT_WOULD_YOU_LIKE_SWICHT_TO_VIDEO_CALL" = "Would you like to switch to video calling?";
+    "TEXT_CONTACT_TURN_OFF_CAMERA" = "has turn off camera";
+    "TEXT_CALL_ANONYMOUS_CONTACT_NAME" = "NapoleoN User";
+    "TEXT_MISSED_VOICE_CALL_AT" = "Missed voice call";
+    "TEXT_MISSED_VIDEO_CALL_AT" = "Missed video call";
+    "TEXT_ENCRYPTED_CALL" = "Encrypted call";
+    "TEXT_ENCRYPTED_VIDEO_CALL" = "Encrypted video call";
+    "TEXT_CALL_NOT_INTERNET_CONNECTION" = "The call could not be made. Check your internet connection and try again.";
+    "TEXT_VIDEO_CALL_NOT_INTERNET_CONNECTION" = "The video call could not be made. Check your internet connection and try again.";
+    "TEXT_VIDEO_CALL_REJECTED" = "The video call request was rejected";
+/* Call */
+
+/* Show Case */
+    "TEXT_ADD_CONTACTS_TITTLE" = "ADD CONTACTS";
+    "TEXT_ADD_CONTACTS_DESCRIPTION" = "Here you can add contacts, searching for them by his nickname.";
+    "TEXT_AGENDA_TITLE" = "AGENDA";
+    "TEXT_AGENDA_DESCRIPTION" = "Here you find the contacts you've added in NapoleoN Chat.";
+    "TEXT_STATES_TITLE" = "STATES";
+    "TEXT_STATES_DESCRIPTION" = "Tell your contacts as you meet a sentence.";
+    "TEXT_MENU_TITLE" = "MAIN MENU";
+    "TEXT_MENU_DESCRIPTION" = "We give you different options to modify the account to your liking.";
+    "TEXT_YOUR_PRIVACY_IS_OUR_PRIORITY_TITLE" = "SECURITY SETTINGS";
+    "TEXT_YOUR_PRIVACY_IS_OUR_PRIORITY_DESCRIPTION" = "Keep your information safe by setting the security of your account.";
+    "TEXT_NAPOLEON_DOES_NOT_SAVE_YOUR_DATA_TITLE" = "ACCOUNT RECOVERY";
+    "TEXT_NAPOLEON_DOES_NOT_SAVE_YOUR_DATA_DESCRIPTION" = "If you want to keep your same user, complete security questions.";
+    "TEXT_SELFDESTRUCTION_OF_MESSAGES_TITLE" = "SELF DESTRUCTION OF MESSAGES";
+    "TEXT_SELFDESTRUCTION_OF_MESSAGES_DESCRIPTION" = "Customize the duration of your messages.";
+/* Show Case */

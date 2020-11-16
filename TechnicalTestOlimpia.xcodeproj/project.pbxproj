@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181C43242561DA610009D631 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181C43262561DA610009D631 /* Localized.strings */; };
+		181C43A825620AD10009D631 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181C43AA25620AD10009D631 /* Localizable.strings */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -102,12 +102,12 @@
 
 /* Begin PBXFileReference section */
 		104D932BBF7803A0EC55A568 /* Pods_TechnicalTestOlimpia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalTestOlimpia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		181C43252561DA610009D631 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localized.strings; sourceTree = "<group>"; };
-		181C432A2561DA650009D631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
-		181C432B2561DA6B0009D631 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localized.strings; sourceTree = "<group>"; };
-		181C432C2561DA6D0009D631 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localized.strings; sourceTree = "<group>"; };
-		181C432D2561DA6E0009D631 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localized.strings; sourceTree = "<group>"; };
-		181C432E2561DA6F0009D631 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localized.strings"; sourceTree = "<group>"; };
+		181C43A925620AD10009D631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		181C43AE25620AD50009D631 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		181C43AF25620AD70009D631 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		181C43B025620ADE0009D631 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		181C43B125620AE00009D631 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		181C43B225620AE20009D631 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -510,7 +510,7 @@
 				184402FD2560A7FD000CABC5 /* ColorConfig.swift */,
 				184403072560A888000CABC5 /* TableViewConfig.swift */,
 				184403412560AAED000CABC5 /* LanguageConfig.swift */,
-				181C43262561DA610009D631 /* Localized.strings */,
+				181C43AA25620AD10009D631 /* Localizable.strings */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -651,8 +651,8 @@
 			files = (
 				188DF4B8255F926E000A729E /* Roboto-Medium.ttf in Resources */,
 				188DF4BA255F926E000A729E /* Roboto-Italic.ttf in Resources */,
+				181C43A825620AD10009D631 /* Localizable.strings in Resources */,
 				188DF454255F8A25000A729E /* Preview Assets.xcassets in Resources */,
-				181C43242561DA610009D631 /* Localized.strings in Resources */,
 				188DF4B9255F926E000A729E /* Roboto-Regular.ttf in Resources */,
 				188DF451255F8A25000A729E /* Assets.xcassets in Resources */,
 				188DF4BB255F926E000A729E /* Roboto-BoldItalic.ttf in Resources */,
@@ -859,17 +859,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		181C43262561DA610009D631 /* Localized.strings */ = {
+		181C43AA25620AD10009D631 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				181C43252561DA610009D631 /* es */,
-				181C432A2561DA650009D631 /* en */,
-				181C432B2561DA6B0009D631 /* fr */,
-				181C432C2561DA6D0009D631 /* de */,
-				181C432D2561DA6E0009D631 /* it */,
-				181C432E2561DA6F0009D631 /* pt-PT */,
+				181C43A925620AD10009D631 /* en */,
+				181C43AE25620AD50009D631 /* fr */,
+				181C43AF25620AD70009D631 /* de */,
+				181C43B025620ADE0009D631 /* it */,
+				181C43B125620AE00009D631 /* pt-PT */,
+				181C43B225620AE20009D631 /* es */,
 			);
-			name = Localized.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
