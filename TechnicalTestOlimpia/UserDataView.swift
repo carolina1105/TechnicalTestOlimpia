@@ -22,7 +22,7 @@ struct UserDataView: View {
     @State var showCapture: Bool = false
     @State var isOpacity: Bool = false
     @ObservedObject var userVM = UserDataViewModel.shared
-
+    
     var body: some View {
         let drag = DragGesture()
             .onEnded {
@@ -35,43 +35,39 @@ struct UserDataView: View {
             }
         NavigationView {
             ZStack{
-
-            VStack{
-                ScrollView { 
-                    SectionView(title: "TEXT_NAME".localized, username: self.$userVM.name)
-                    SectionView(title: "TEXT_IDENTIFICATION_CARD".localized, username: .constant("\(self.userVM.identification)"))
-                    SectionView(title: "TEXT_ADDRESS".localized, username: self.$userVM.address)
-                    SectionView(title: "TEXT_CITY".localized, username: self.$userVM.city)
-                    SectionView(title: "TEXT_COUNTRY".localized, username: self.$userVM.country)
-                    SectionView(title: "TEXT_CELLPHONE".localized, username: self.$userVM.cellphone)
-                    SectionPhoto(title: "TEXT_SELECT_PHOTO".localized, didCaptureImage: { 
-                        self.animateInPhoto()
-                    })
-                    SectionLocation(title: "TEXT_LOCATION_TITLE".localized, didCaptureLocation: {
-                        self.showLocation()
-                    })
-
+                VStack{
+                    ScrollView { 
+                        SectionView(title: "TEXT_NAME".localized, username: self.$userVM.name)
+                        SectionView(title: "TEXT_IDENTIFICATION_CARD".localized, username: self.$userVM.identification)
+                        SectionView(title: "TEXT_ADDRESS".localized, username: self.$userVM.address)
+                        SectionView(title: "TEXT_CITY".localized, username: self.$userVM.city)
+                        SectionView(title: "TEXT_COUNTRY".localized, username: self.$userVM.country)
+                        SectionView(title: "TEXT_CELLPHONE".localized, username: self.$userVM.cellphone)
+                        SectionPhoto(title: "TEXT_SELECT_PHOTO".localized, didCaptureImage: { 
+                            self.animateInPhoto()
+                        })
+                        SectionLocation(title: "TEXT_LOCATION_TITLE".localized, didCaptureLocation: {
+                            self.showLocation()
+                        })
+                    }
+                    BtnHudPrimary(text: "TEXT_REGISTER".localized) {  btn in
+                        btn.stopAnimation(animationStyle: .normal)
+                        self.userVM.registerUser()
+                    }
+                    .frame(width: width * btnWidth, height: btnHeight,alignment: .center)
+                    .padding(.bottom, 30)
+                    Spacer()
                 }
-                BtnHudPrimary(text: "TEXT_REGISTER".localized) {  btn in
-//                    self.showLocation()
-                    print("user. \(self.userVM.user)")
-                    btn.stopAnimation(animationStyle: .normal)
-
-//                                self.registerUserVM.register(success: {
-//                                    btn.stopAnimation(animationStyle: .expand) {
-//                                        self.segue.present(inbox: InboxView(isSplash: false))
-//                                    }
-//                                }) {
-//                                    btn.stopAnimation(animationStyle: .normal)
-//                                }
-                }
-                .frame(width: width * btnWidth, height: btnHeight,alignment: .center)
-                .padding(.bottom, 30)
-                Spacer()
-            }
-            .padding(.top)
+                .padding(.top)
                 NavigationContent()
-
+                
+            }.onAppear{
+                self.userVM.getUser()
+            }
+            .alert(isPresented: $userVM.showAlert) {
+                Alert(title: Text(userVM.titleMessage),
+                      message: Text(userVM.messageAlert),
+                      dismissButton: .default(Text("TEXT_CLOSE".localized)))
             }
             .navigationBarItems(leading: Button(action: {
                 self.animateIn()
@@ -132,7 +128,7 @@ struct UserDataView: View {
     }
     func showCamera() {
         segue.present(view: CameraView(didSendPhoto: { photo, message in
-                                            self.userVM.avatar = photo
+            self.userVM.avatar = photo
         }))
     }
     
@@ -191,7 +187,7 @@ struct SectionPhoto: View {
     private let sizeIconSmall: CGFloat = 25
     private let paddingBottonIcon:CGFloat = 35
     @ObservedObject var userVM = UserDataViewModel.shared
-
+    
     var body: some View {
         HStack {
             HStack {
@@ -222,7 +218,7 @@ struct SectionLocation: View {
     private let sizeIconSmall: CGFloat = 25
     private let paddingBottonIcon:CGFloat = 35
     @ObservedObject var userVM = UserDataViewModel.shared
-
+    
     var body: some View {
         HStack {
             HStack {
@@ -251,7 +247,7 @@ struct NavigationContent: View {
     private let securityTag: Int = 2
     
     @ObservedObject var userVM = UserDataViewModel.shared
-
+    
     var body: some View {
         ZStack {
             NavigationLink(destination: AppearanceSettingsView(),

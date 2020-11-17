@@ -7,7 +7,6 @@
 
 import Foundation
 
-let dateRefreshKey = "DateRefresh"
 class DefaultsConfig {
     
     static let shared = DefaultsConfig()
@@ -16,17 +15,7 @@ class DefaultsConfig {
     
     let keyTheme                 : String = "Theme"
     let keyLanguage              : String = "OlimpiaLanguage"
-    let keyThemeType                    : String = "ThemeType"
-
-    let keyUser                  : String = "user"
-    let keyToken                 : String = "token"
-    let keyOlimpia               : String = "Olimpia"
-    let keyGoogleToken           : String = "GoogleToken"
-    let keyIsLoginGoogle         : String = "IsLoginGoogle"
-    let keyDateRefresh           : String = "DateRefresh"
-    
-    // Appearance
-    let KeyTimeFormat            : String = "TimeFormat"
+    let keyThemeType             : String = "ThemeType"
     
     func set(value: Any, for key: String) {
         UserDefaults.standard.set(value, forKey: key)

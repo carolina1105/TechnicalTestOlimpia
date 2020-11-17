@@ -26,6 +26,7 @@
     "TEXT_COUNTRY" = "País";
     "TEXT_CELLPHONE" = "Telefone celular";
     "TEXT_REGISTER_USER" = "Registrar usuário";
+    "TEXT_ALERT_REGISTER" = "Por favor, preencha todos os campos obrigatórios";
 /* User Register View */
 
 /* Location */

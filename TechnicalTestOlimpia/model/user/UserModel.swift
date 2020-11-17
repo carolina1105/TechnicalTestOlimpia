@@ -8,12 +8,10 @@
 import Firebase
 
 struct UserModel: Codable {
-    
-//    static let empty = ""
-    
+        
     var id: Int64
     var name: String
-    var identification: Int
+    var identification: String
     var address: String
     var avatar: String
     var city: String
@@ -24,7 +22,7 @@ struct UserModel: Codable {
     
     init(id: Int64 = 0,
          name: String = "",
-         identification: Int = 0,
+         identification: String = "",
          address: String = "",
          avatar: String = "",
          city: String = "",
@@ -43,40 +41,26 @@ struct UserModel: Codable {
     }
     
     
-//    static func toModel(dto: RegisterUserResDTO) -> UserModel {
-//        let model = UserModel(id: dto.id ?? 0,
-//                              firebaseId: empty,
-//                              nickname: dto.nickname ?? empty,
-//                              name: dto.name ?? empty,
-//                              avatar: empty,
-//                              language: dto.language ?? empty,
-//                              pin: dto.pin ?? empty,
-//                              confirm: dto.confirm ?? empty,
-//                              state: empty,
-//                              status: dto.status ?? empty,
-//                              lastseen: 0,
-//                              secretKey: dto.secretKey,
-//                              created: dto.created,
-//                              type: dto.type)
-//        return model
-//    }
-//    
-//    static func toModel(dto: UpdateInfoUserResDTO) -> UserModel {
-//        let model = UserModel(id: 0,
-//                              firebaseId: empty,
-//                              nickname: empty,
-//                              name: dto.name ?? empty,
-//                              avatar: dto.avatar ?? empty,
-//                              language: empty,
-//                              pin: empty,
-//                              confirm: empty,
-//                              state: dto.state ?? empty,
-//                              status: dto.status ?? empty,
-//                              lastseen: dto.lastseen ?? 0)
-//        return model
-//    }
+    static func toModel(dto: RegisterUserResDTO) -> UserModel {
+        let model = UserModel(id: dto.id ?? .zero, 
+                              name: dto.name, 
+                              identification: dto.identification, 
+                              address: dto.address, 
+                              avatar: dto.avatar, 
+                              city: dto.city, 
+                              country: dto.country, 
+                              cellphone: dto.cellphone, 
+                              geolocation: dto.geolocation)
+        return model
+    }
     
-    func toDTO(model: UserModel) -> RegisterUserReqDTO {
+    static func toModels(dto: [RegisterUserResDTO]) -> [UserModel] {
+        return dto.map {
+            toModel(dto: $0)
+        }
+    }
+    
+    static func toReqDTO(model: UserModel) -> RegisterUserReqDTO {
         let request = RegisterUserReqDTO(id: model.id , 
                                          name: model.name , 
                                          identification: model.identification , 
@@ -94,7 +78,7 @@ struct UserModel: Codable {
 extension UserModel {
     static var empty = UserModel(id: .zero, 
                              name: "", 
-                             identification: .zero, 
+                             identification: "", 
                              address: "", 
                              avatar: "", 
                              city: "", 

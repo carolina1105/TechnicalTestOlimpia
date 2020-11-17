@@ -8,7 +8,7 @@
 import Foundation
 
 struct ResultResDTO: Codable {
-    var result: Bool
+    var result: String
     private enum CodingKeys: String, CodingKey {
         case result = "success"
     }

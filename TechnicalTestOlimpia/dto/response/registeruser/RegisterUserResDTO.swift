@@ -8,9 +8,9 @@
 import Foundation
 
 struct RegisterUserResDTO: Codable {
-    var id: Int64
+    var id: Int64?
     var name: String
-    var identification: Int
+    var identification: String
     var address: String
     var avatar: String
     var city: String

@@ -26,6 +26,7 @@
     "TEXT_COUNTRY" = "Land";
     "TEXT_CELLPHONE" = "Handy";
     "TEXT_REGISTER_USER" = "Benutzer registrieren";
+    "TEXT_ALERT_REGISTER" = "Bitte alle benötigten Felder ausfüllen";
 /* User Register View */
 
 /* Location */

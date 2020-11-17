@@ -30,6 +30,7 @@
 		181C4652256258370009D631 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4651256258370009D631 /* CoreBluetooth.swift */; };
 		181C469A2562DD4D0009D631 /* OptionsPanelPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */; };
 		181C46C02562E9D30009D631 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C46BF2562E9D30009D631 /* GradientView.swift */; };
+		18382F552563765300D0D434 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382F542563765300D0D434 /* Manager.swift */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -150,6 +151,7 @@
 		181C4651256258370009D631 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
 		181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPanelPhotoView.swift; sourceTree = "<group>"; };
 		181C46BF2562E9D30009D631 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		18382F542563765300D0D434 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -680,6 +682,7 @@
 			isa = PBXGroup;
 			children = (
 				184402652560A4AE000CABC5 /* ManagerWS.swift */,
+				18382F542563765300D0D434 /* Manager.swift */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -1357,6 +1360,7 @@
 				181C446F256228B60009D631 /* MenuViewModel.swift in Sources */,
 				188DF47D255F8E5B000A729E /* UserDataView.swift in Sources */,
 				1844019A2560615B000CABC5 /* PhotoLibrary.swift in Sources */,
+				18382F552563765300D0D434 /* Manager.swift in Sources */,
 				184401AE25606309000CABC5 /* CircleView.swift in Sources */,
 				1844033D2560AA8E000CABC5 /* ImageExtension.swift in Sources */,
 				184401B725606362000CABC5 /* ViewExtension.swift in Sources */,

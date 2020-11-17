@@ -21,7 +21,7 @@ class UserDataViewModel: ObservableObject {
             user.name = self.name
         }
     }
-    @Published var identification: Int = 0 {
+    @Published var identification: String = "" {
         didSet {
             user.identification = self.identification
         }
@@ -53,16 +53,58 @@ class UserDataViewModel: ObservableObject {
     }
     @Published var cellphone: String = "" {
         didSet {
-            user.cellphone = self.geolocation
+            user.cellphone = self.cellphone
         }
     }
     @Published var showAlert: Bool = false
     @Published var messageAlert: String = ""
     @Published var titleMessage: String = ""
-
-    func registerUser() {
-//        isLoading = true
-
+    
+    func getUser() {
+        repository.getUser { user in
+            print("User count.. \(user.count)")
+        } failure: { message in
+            self.showAlert = true
+            self.titleMessage = "TEXT_ALERT_FAILURE".localized
+            self.messageAlert = message
+        }
     }
     
+    func registerUser() {
+        self.user.id = Int64(Double.random(in: 1...100))
+        if validData(user: self.user) {
+            repository.registerUser(user: .empty) { 
+                print("succes Register")
+                self.showAlert = true
+                self.titleMessage = "TEXT_ALERT_SUCCESS".localized
+                self.messageAlert = "TEXT_REQUEST_SUCCESS".localized
+                self.cleanData()
+            } failure: { message in
+                self.showAlert = true
+                self.titleMessage = "TEXT_ALERT_FAILURE".localized
+                self.messageAlert = message
+                
+            }
+        }  else {
+            showAlert = true
+            titleMessage = "TEXT_ALERT_FAILURE".localized
+            messageAlert = "TEXT_ALERT_REGISTER".localized
+        }
+    }
+    
+    func validData(user: UserModel) -> Bool {
+        return user.name == "" || user.identification == "" || user.address == "" || user.city == "" || user.country == "" || user.cellphone == "" || user.avatar == "" || user.geolocation == "" ? false : true
+    }
+    
+    func cleanData() {
+        self.user = .empty
+        self.name = ""
+        self.identification = ""
+        self.address = ""
+        self.city = ""
+        self.country = ""
+        self.avatar = ""
+        self.geolocation = ""
+        self.cellphone = ""
+    }
 }
