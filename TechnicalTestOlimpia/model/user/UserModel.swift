@@ -7,8 +7,8 @@
 
 import Firebase
 
-struct UserModel: Codable, Identifiable {
-        
+struct UserModel: Codable, Identifiable, Equatable {
+    
     var id: Int64
     var name: String
     var identification: String
@@ -77,12 +77,67 @@ struct UserModel: Codable, Identifiable {
 
 extension UserModel {
     static var empty = UserModel(id: .zero, 
-                             name: "", 
-                             identification: "", 
-                             address: "", 
-                             avatar: "", 
-                             city: "", 
-                             country: "", 
-                             cellphone: "", 
-                             geolocation: "")
+                                 name: "", 
+                                 identification: "", 
+                                 address: "", 
+                                 avatar: "", 
+                                 city: "", 
+                                 country: "", 
+                                 cellphone: "", 
+                                 geolocation: "")
+}
+
+extension UserModel {
+    static func mock(completion: @escaping (UserModel) -> Void ) {
+        let user = UserModel(id: 1, 
+                             name: "Carolina Díaz", 
+                             identification: "123456", 
+                             address: "Av 2 # 10-56", 
+                             avatar: "test", 
+                             city: "Medellín", 
+                             country: "Colombia", 
+                             cellphone: "12345", 
+                             geolocation: "test")
+        completion(user)
+    }
+    
+    static func mockList(completion: @escaping ([UserModel]) -> Void ) {
+        let users = [UserModel(id: 1, 
+                               name: "Carolina Díaz", 
+                               identification: "123456", 
+                               address: "Av 2 # 10-56", 
+                               avatar: "test", 
+                               city: "Medellín", 
+                               country: "Colombia", 
+                               cellphone: "12345", 
+                               geolocation: "test"),
+                     UserModel(id: 1, 
+                               name: "Carolina Díaz", 
+                               identification: "123456", 
+                               address: "Av 2 # 10-56", 
+                               avatar: "test", 
+                               city: "Medellín", 
+                               country: "Colombia", 
+                               cellphone: "12345", 
+                               geolocation: "test"),
+                     UserModel(id: 1, 
+                               name: "Carolina Díaz", 
+                               identification: "123456", 
+                               address: "Av 2 # 10-56", 
+                               avatar: "test", 
+                               city: "Medellín", 
+                               country: "Colombia", 
+                               cellphone: "12345", 
+                               geolocation: "test")]
+        completion(users)
+    }
+    
+    static func mockError(completion: @escaping (AppError) -> Void ) {
+        let error: AppError = .invalidURL
+        completion(error)
+    }
+}
+
+enum AppError: String, Error {
+    case invalidURL = "URLSessionTask failed with error: unsupported URL"
 }
