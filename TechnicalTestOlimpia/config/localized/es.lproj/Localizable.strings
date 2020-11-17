@@ -27,6 +27,8 @@
     "TEXT_CELLPHONE" = "Teléfono Celular";
     "TEXT_REGISTER_USER" = "Registrar Usuario";
     "TEXT_ALERT_REGISTER" = "Por favor llenar todos los campos obligatorios";
+    "TEXT_BLUETOOTH_ON" = "Bluetooth está activado";
+    "TEXT_BLUETOOTH_OFF" = "Bluetooth no está encendido";
 /* User Register View */
 
 /* Location */
@@ -38,6 +40,7 @@
 /* Menu View */
     "TEXT_SECURITY_SETTINGS_TITLE" = "Ajustes de Seguridad";
     "TEXT_APPEARANCE_SETTINGS_TITLE" = "Ajustes de Apariencia";
+    "TEXT_LIST_USERS" = "Listado de usuarios";
 /* Menu View */
 
 /* Appearance Settings View */

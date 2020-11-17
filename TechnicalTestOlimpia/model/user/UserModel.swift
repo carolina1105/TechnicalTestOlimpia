@@ -7,7 +7,7 @@
 
 import Firebase
 
-struct UserModel: Codable {
+struct UserModel: Codable, Identifiable {
         
     var id: Int64
     var name: String

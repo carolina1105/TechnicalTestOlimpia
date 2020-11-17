@@ -31,6 +31,9 @@
 		181C469A2562DD4D0009D631 /* OptionsPanelPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */; };
 		181C46C02562E9D30009D631 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C46BF2562E9D30009D631 /* GradientView.swift */; };
 		18382F552563765300D0D434 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382F542563765300D0D434 /* Manager.swift */; };
+		18382F7725638D3A00D0D434 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382F7625638D3A00D0D434 /* UsersListView.swift */; };
+		18382F7D25638DF700D0D434 /* SectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382F7C25638DF700D0D434 /* SectionsView.swift */; };
+		18382F892563930B00D0D434 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382F882563930B00D0D434 /* UserCellView.swift */; };
 		1844013E25605C7D000CABC5 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844013D25605C7D000CABC5 /* Camera.storyboard */; };
 		1844014325605CC2000CABC5 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014225605CC2000CABC5 /* CameraController.swift */; };
 		1844014925605CF0000CABC5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844014825605CF0000CABC5 /* CameraViewController.swift */; };
@@ -152,6 +155,9 @@
 		181C46992562DD4D0009D631 /* OptionsPanelPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPanelPhotoView.swift; sourceTree = "<group>"; };
 		181C46BF2562E9D30009D631 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		18382F542563765300D0D434 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		18382F7625638D3A00D0D434 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
+		18382F7C25638DF700D0D434 /* SectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsView.swift; sourceTree = "<group>"; };
+		18382F882563930B00D0D434 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		1844013D25605C7D000CABC5 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		1844014225605CC2000CABC5 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		1844014825605CF0000CABC5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -787,6 +793,31 @@
 			path = bluetooth;
 			sourceTree = "<group>";
 		};
+		18382F7B25638D4200D0D434 /* userlist */ = {
+			isa = PBXGroup;
+			children = (
+				18382F8D2563931000D0D434 /* cell */,
+				18382F7625638D3A00D0D434 /* UsersListView.swift */,
+			);
+			name = userlist;
+			sourceTree = "<group>";
+		};
+		18382F8425638E9D00D0D434 /* sections */ = {
+			isa = PBXGroup;
+			children = (
+				18382F7C25638DF700D0D434 /* SectionsView.swift */,
+			);
+			name = sections;
+			sourceTree = "<group>";
+		};
+		18382F8D2563931000D0D434 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18382F882563930B00D0D434 /* UserCellView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		1844014725605CDC000CABC5 /* camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -948,6 +979,7 @@
 				188DF4A3255F90CA000A729E /* modifiers */,
 				188DF47B255F8D1D000A729E /* content */,
 				188DF481255F8E63000A729E /* userdata */,
+				18382F7B25638D4200D0D434 /* userlist */,
 				181C45B0256250130009D631 /* location */,
 				181C44402562273F0009D631 /* menu */,
 				181C448D256232100009D631 /* appearancesettings */,
@@ -969,6 +1001,7 @@
 		188DF481255F8E63000A729E /* userdata */ = {
 			isa = PBXGroup;
 			children = (
+				18382F8425638E9D00D0D434 /* sections */,
 				188DF47C255F8E5B000A729E /* UserDataView.swift */,
 				181C43F0256211720009D631 /* UserDataViewModel.swift */,
 			);
@@ -1347,7 +1380,9 @@
 				188DF44F255F8A22000A729E /* ContentView.swift in Sources */,
 				181C44AE256234900009D631 /* LanguageRepository.swift in Sources */,
 				184402572560A449000CABC5 /* ResDTO.swift in Sources */,
+				18382F7D25638DF700D0D434 /* SectionsView.swift in Sources */,
 				1844030D2560A8B2000CABC5 /* LoadingView.swift in Sources */,
+				18382F7725638D3A00D0D434 /* UsersListView.swift in Sources */,
 				1844018D256060DD000CABC5 /* PhotoGridViewCell.swift in Sources */,
 				188DF44D255F8A22000A729E /* TechnicalTestOlimpiaApp.swift in Sources */,
 				188DF49F255F90A7000A729E /* NavigationBarModifier.swift in Sources */,
@@ -1400,6 +1435,7 @@
 				1844017525605DD7000CABC5 /* DefaultsConfig.swift in Sources */,
 				181C44B8256238C80009D631 /* LanguageCellView.swift in Sources */,
 				184403382560AA22000CABC5 /* TextFieldUtility.swift in Sources */,
+				18382F892563930B00D0D434 /* UserCellView.swift in Sources */,
 				181C4652256258370009D631 /* CoreBluetooth.swift in Sources */,
 				184402D42560A6D4000CABC5 /* Constant.swift in Sources */,
 				181C449B256233430009D631 /* LanguageViewModel.swift in Sources */,

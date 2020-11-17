@@ -16,6 +16,7 @@ class UserDataViewModel: ObservableObject {
     private var nextPage: Int = 0  
     @Published var activeSection: Int? = nil
     @Published var user: UserModel = .empty
+    @Published var users: [UserModel] = [.empty]
     @Published var name: String = "" {
         didSet {
             user.name = self.name
@@ -61,8 +62,10 @@ class UserDataViewModel: ObservableObject {
     @Published var titleMessage: String = ""
     
     func getUser() {
-        repository.getUser { user in
-            print("User count.. \(user.count)")
+        users = []
+        repository.getUser { users in
+            print("User count.. \(users.count)")
+            self.users = users
         } failure: { message in
             self.showAlert = true
             self.titleMessage = "TEXT_ALERT_FAILURE".localized

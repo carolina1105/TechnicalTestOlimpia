@@ -16,6 +16,10 @@ class MenuViewModel: ObservableObject {
         [MenuItemModel(id: "1",
                         tag: 1,
                         name: "TEXT_APPEARANCE_SETTINGS_TITLE",
-                        icon: "paintbrush.fill")
+                        icon: "paintbrush.fill"),
+         MenuItemModel(id: "2",
+                         tag: 2,
+                         name: "TEXT_LIST_USERS",
+                         icon: "person.fill")
     ]
 }
